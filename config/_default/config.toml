@@ -1,0 +1,15 @@
+baseURL = "/"
+languageCode = "en"
+title = "✟ Christian Writings ✟"
+theme = "hugo-theme-monochrome"
+defaultContentLanguage = "en"
+enableEmoji = false
+paginate = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
