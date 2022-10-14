@@ -1,4 +1,4 @@
-baseURL = "https://www.christianwritings.com"
+baseURL = "https://www.christianwritings.com/"
 languageCode = "en"
 title = "✟ Christian Writings ✟"
 theme = "hugo-theme-monochrome"
