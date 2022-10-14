@@ -7,17 +7,17 @@ slug: letter-to-the-corinthians
 ## Listen to the Audio Version
 
 ### Chapter 1-10
-{{< audio src="audio/1_clement_01-10.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_01-10.mp3" >}}
 ### Chapter 11-20
-{{< audio src="audio/1_clement_11-20.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_11-20.mp3" >}}
 ### Chapter 21-30
-{{< audio src="audio/1_clement_21-30.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_21-30.mp3" >}}
 ### Chapter 31-40
-{{< audio src="audio/1_clement_31-40.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_31-40.mp3" >}}
 ### Chapter 41-50
-{{< audio src="audio/1_clement_41-50.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_41-50.mp3" >}}
 ### Chapter 51-59
-{{< audio src="audio/1_clement_51-59.mp3" >}}
+{{< audio src="https://audio.christianwritings.org/1_clement_51-59.mp3" >}}
 
 ## The Salutation & Praise of the Corinthians
 The church of God which sojourns at Rome, to the church of God sojourning at Corinth, to them that are called and sanctified by the will of God, through our Lord Jesus Christ: Grace unto you, and peace, from Almighty God through Jesus Christ, be multiplied.
