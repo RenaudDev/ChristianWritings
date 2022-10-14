@@ -2,6 +2,7 @@
 title: "The Epistle of Ignatius of Antioch to the Ephesians"
 enableToc: true
 slug: ignatius-of-antioch-ephesians
+layout: single
 ---
 
 ## Listen to the Audio Version

@@ -1,6 +1,7 @@
 ---
 title: "The Epistle of Ignatius to the Magnesians"
 slug: ignatius-of-antioch-magnesians
+layout: single
 ---
 
 ## Listen to the Audio Version
