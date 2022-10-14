@@ -1,10 +1,13 @@
 baseURL = "https://www.christianwritings.com/"
 languageCode = "en"
 title = "✟ Christian Writings ✟"
+
 theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
 enableEmoji = false
 paginate = 5
+
+[Params]
 
 [taxonomies]
 tag = "tags"

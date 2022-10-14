@@ -1,6 +1,7 @@
 ---
 title: St. Clement Of Rome
 slug: clement-of-rome
+description: 
 tags:
 - Apostolic Father
 timeline: AD 35 - 99
