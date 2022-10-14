@@ -16,6 +16,7 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -361,12 +362,21 @@ a {
   color: var(--color-link);
   text-decoration: none; }
 
+.highlight {
+  color: var(--color-link) !important; }
+
+:root {
+  --font-body: "Inter";
+  --font-header: "Inter";
+  --font-mono: "Inter"
+; }
+
 html, button, input, select, textarea,
 .pure-g [class*="pure-u"] {
-  font-family: system-ui,-apple-system,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji; }
+  font-family: var(--font-header); }
 
 code, kbd, pre {
-  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace; }
+  font-family: var(--font-header); }
 
 main {
   margin-left: auto;
@@ -379,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem; }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   /* 24px */
   line-height: 2rem;
   /* 32px */ }
@@ -670,7 +680,7 @@ html[data-theme="dark"] .bookcase-item-img-light {
     .gallery-layout .gallery-item-title a:hover {
       border-bottom-color: var(--color-text-secondary); }
   .gallery-layout .gallery-item-title span {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     /* 24px */
     line-height: 2rem;
     /* 32px */
@@ -830,7 +840,7 @@ header {
     display: flex;
     align-items: center; }
     header .brand a {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       /* 24px */
       line-height: 2rem;
       /* 32px */

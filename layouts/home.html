@@ -1,0 +1,29 @@
+{{ define "content" }}
+
+{{ if .Content }}
+    <div class="content-margin">
+        {{- partial "content.html" . -}}
+
+    </div>
+{{ end }}
+  <div>
+    <h1>Church Fathers</h1>
+    {{ with .Pages.ByPublishDate }}
+        <ul class="list-layout">
+            {{ range . }}
+                <li>
+                    <a href="{{ .RelPermalink }}">
+                        {{- .Title -}}
+                    </a>
+                    <span>
+                        - <strong>{{- .Params.timeline -}}</strong>
+                    </span>
+                    <span>
+                        - <strong class="highlight">{{- .Params.tags -}}</strong>
+                    </span>
+                </li>
+            {{ end }}
+        </ul>
+    {{ end }}
+</div>
+{{ end }}
