@@ -4,7 +4,7 @@ slug: ignatius-of-antioch-magnesians
 ---
 
 ## Listen to the Audio Version
-{{< audio src="/static/ignatius2.mp3" >}}
+{{< audio src="audio/ignatius2.mp3" >}}
 
 ## Greeting
 Ignatius, who is also called Theophorus, to the Church blessed in the grace of God the Father, in Jesus Christ our Saviour, in whom I salute the Church which is at Magnesia, near the Mæander, and wish it abundance of happiness in God the Father, and in Jesus Christ.
@@ -52,7 +52,7 @@ Study, therefore, to be established in the doctrines of the Lord and the apostle
 Knowing as I do that you are full of God, I have but briefly exhorted you. Be mindful of me in your prayers, that I may attain to God; and of the Church which is in Syria, whence I am not worthy to derive my name: for I stand in need of your united prayer in God, and your love, that the Church which is in Syria may be deemed worthy of being refreshed by your Church.
 
 ## Salutations
-The Ephesians from Smyrna (whence I also write to you), who are here for the glory of God, as you also are, who have in all things refreshed me, salute you, along with [[content/church fathers/Polycarp Of Smyrna/index.md|Polycarp]], the bishop of the Smyrnæans. The rest of the Churches, in honour of Jesus Christ, also salute you. Fare well in the harmony of God, you who have obtained the inseparable Spirit, who is Jesus Christ.
+The Ephesians from Smyrna (whence I also write to you), who are here for the glory of God, as you also are, who have in all things refreshed me, salute you, along with [Polycarp](/polycarp-of-smyrna), the bishop of the Smyrnæans. The rest of the Churches, in honour of Jesus Christ, also salute you. Fare well in the harmony of God, you who have obtained the inseparable Spirit, who is Jesus Christ.
 
 ## Sources
 Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight. 

@@ -482,6 +482,9 @@ details[open] > summary {
 .homelogo {
   font-size: 1rem !important; }
 
+audio {
+  width: 100%; }
+
 article {
   line-height: 1.7; }
   article > *:first-child {

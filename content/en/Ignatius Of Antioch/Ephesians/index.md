@@ -5,7 +5,7 @@ slug: ignatius-of-antioch-ephesians
 ---
 
 ## Listen to the Audio Version
-{{< audio src="/static/ignatius2.mp3" >}}
+{{< audio src="audio/ignatius1.mp3" >}}
 
 ## Greeting
 Ignatius, who is also called Theophorus, to the Church which is at Ephesus, in Asia, deservedly most happy, being blessed in the greatness and fullness of God the Father, and predestinated before the ages of time, that it should be always for an enduring and unchangeable glory, being united and elected through the true passion by the will of the Father, and Jesus Christ, our God: Abundant happiness through Jesus Christ, and His undefiled grace.
@@ -92,7 +92,7 @@ If Jesus Christ shall graciously permit me through your prayers, and if it be Hi
 
 ## Conclusion
 
-My soul be for yours and theirs whom, for the honour of God, you have sent to Smyrna; whence also I write to you, giving thanks unto the Lord, and loving [[church fathers/Polycarp Of Smyrna/index|Polycarp Of Smyrna]] even as I do you. Remember me, as Jesus Christ also remembered you. Pray for the Church which is in Syria, whence I am led bound to Rome, being the last of the faithful who are there, even as I have been thought worthy to be chosen to show forth the honour of God. Farewell in God the Father, and in Jesus Christ, our common hope.
+My soul be for yours and theirs whom, for the honour of God, you have sent to Smyrna; whence also I write to you, giving thanks unto the Lord, and loving [Polycarp Of Smyrna](/polycarp-of-smyrna) even as I do you. Remember me, as Jesus Christ also remembered you. Pray for the Church which is in Syria, whence I am led bound to Rome, being the last of the faithful who are there, even as I have been thought worthy to be chosen to show forth the honour of God. Farewell in God the Father, and in Jesus Christ, our common hope.
 
 ## Sources
 
