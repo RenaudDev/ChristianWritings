@@ -84,6 +84,10 @@ details[open] > summary {
 .hidden {
   display: none;
 }
+.list-flex {
+  display: flex;
+  flex-direction: row;
+}
 
 @media screen and (min-width: $sm_min_width) {
   main {
@@ -113,4 +117,12 @@ details[open] > summary {
   main {
     width: $xxl_main_width;
   }
+}
+@media screen and (max-width: 480px) {
+  .list-flex {
+    flex-direction: column !important;
+  }
+}
+.homelogo {
+  font-size: 1rem !important;
 }

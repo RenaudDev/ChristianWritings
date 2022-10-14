@@ -4,7 +4,7 @@ slug: ignatius-of-antioch-magnesians
 ---
 
 ## Listen to the Audio Version
-{{< audio src="static/ignatius2.mp3" >}}
+{{< audio src="/static/ignatius2.mp3" >}}
 
 ## Greeting
 Ignatius, who is also called Theophorus, to the Church blessed in the grace of God the Father, in Jesus Christ our Saviour, in whom I salute the Church which is at Magnesia, near the Mæander, and wish it abundance of happiness in God the Father, and in Jesus Christ.

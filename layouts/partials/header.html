@@ -7,7 +7,7 @@
         </div>
 
         <div>
-            <a href="{{ .Site.Home.RelPermalink }}">
+            <a class="homelogo" href="{{ .Site.Home.RelPermalink }}">
                 {{- with (.Scratch.Get "params").navbar_title }}
                     {{- . | safeHTML -}}
                 {{- end -}}

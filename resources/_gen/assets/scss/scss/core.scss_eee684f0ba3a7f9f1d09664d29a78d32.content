@@ -451,6 +451,10 @@ details[open] > summary {
 .hidden {
   display: none; }
 
+.list-flex {
+  display: flex;
+  flex-direction: row; }
+
 @media screen and (min-width: 35.5rem) {
   main {
     width: 100%; } }
@@ -470,6 +474,13 @@ details[open] > summary {
 @media screen and (min-width: 40%) {
   main {
     width: 40%; } }
+
+@media screen and (max-width: 480px) {
+  .list-flex {
+    flex-direction: column !important; } }
+
+.homelogo {
+  font-size: 1rem !important; }
 
 article {
   line-height: 1.7; }

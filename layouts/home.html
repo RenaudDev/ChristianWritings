@@ -12,15 +12,21 @@
         <ul class="list-layout">
             {{ range . }}
                 <li>
-                    <a href="{{ .RelPermalink }}">
-                        {{- .Title -}}
-                    </a>
-                    <span>
-                        - <strong>{{- .Params.timeline -}}</strong>
-                    </span>
-                    <span>
-                        - <strong class="highlight">{{- .Params.tags -}}</strong>
-                    </span>
+                    <div class="list-flex">
+                        <div>
+                            <a href="{{ .RelPermalink }}">
+                            {{- .Title -}}
+                            </a>
+                        </div>
+                        <div>
+                            <span>
+                            - <strong>{{- .Params.timeline -}}</strong>
+                            </span>
+                            <span>
+                            - <strong class="highlight">{{- .Params.tags -}}</strong>
+                            </span>
+                        </div>
+                    </div>
                 </li>
             {{ end }}
         </ul>
