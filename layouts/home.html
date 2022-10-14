@@ -3,35 +3,31 @@
 {{ if .Content }}
     <div class="content-margin">
         {{- partial "content.html" . -}}
-
     </div>
 {{ end }}
   <div>
-    <h1>Church Fathers</h1>
     {{ with .Pages.ByPublishDate }}
-        <ul class="list-layout">
+    <div class="postcard-layout content-margin">
             {{ range . }}
-                <li>
-                    <div class="list-flex">
-                        <div>
-                            <a href="{{ .RelPermalink }}">
+            <a href="{{ .RelPermalink }}">
+                    <div class="postcard-item">
+                        <div class="postcard-title">
+                            
                             {{- .Title -}}
-                            </a>
+                            
                         </div>
-                        <div>
+                        <div class="postcard-summary">
                             <span>
-                            - <strong>{{- .Params.timeline -}}</strong>
+                            <strong>{{- .Params.timeline -}}</strong>
                             </span>
                             <span>
-                            - <strong class="highlight">{{- .Params.tags -}}</strong>
+                            <strong class="highlight">{{- .Params.tags -}}</strong>
                             </span>
                         </div>
                     </div>
-                </li>
+                </a>
             {{ end }}
-        </ul>
+    </div>
     {{ end }}
 </div>
-
-
 {{ end }}

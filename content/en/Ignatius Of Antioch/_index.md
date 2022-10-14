@@ -4,6 +4,7 @@ description: Who Was St. Ignatius of Antioch? Ignatius of Antioch** also known a
 slug: ignatius-of-antioch
 tags:
 - Apostolic Father
+- apostolic
 timeline: AD 35 - 108
 layout: list
 ---
