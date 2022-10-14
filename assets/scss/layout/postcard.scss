@@ -7,16 +7,18 @@
     padding: 1rem;
     background-color: var(--color-background-card);
     border-radius: .375rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
     &:hover {
       background-color: var(--color-background-hover);
+      color: var(--color-link) !important;
     }
 
     .postcard-title {
       @include text-xl;
       @include font-medium;
+      font-weight: 600;
     }
   
     .postcard-summary {

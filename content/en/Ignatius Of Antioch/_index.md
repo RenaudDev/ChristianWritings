@@ -5,7 +5,7 @@ slug: ignatius-of-antioch
 tags:
 - Apostolic Father
 timeline: AD 35 - 108
-layout: single
+layout: list
 ---
 
 ## Who Was St. Ignatius of Antioch?
@@ -13,7 +13,4 @@ layout: single
 
 {{< youtube wdeizCtkxZo >}}
 
-## Writings of St. Ignatius of Antioch
-- [Epistle to the Ephesians](/ignatius-of-antioch/ignatius-of-antioch-ephesians)
-- [Epistle to the Magnesians](/ignatius-of-antioch/ignatius-of-antioch-magnesians)
-- [Epistle to the Trallians](/ignatius-of-antioch/ignatius-of-antioch-trallians)
+## Writings Of St. Ignatius of Antioch
