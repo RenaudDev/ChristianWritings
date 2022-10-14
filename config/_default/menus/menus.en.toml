@@ -3,8 +3,3 @@
   name = "Home"
   url = "/"
   weight = 1
-[[navbar]]
-  identifier = "Apostolic Fathers"
-  name = "Apostolic Fathers"
-  url = "/tags/apostolic-father/"
-  weight = 2
