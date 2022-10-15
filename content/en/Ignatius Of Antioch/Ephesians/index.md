@@ -3,6 +3,7 @@ title: "The Epistle of Ignatius of Antioch to the Ephesians"
 enableToc: true
 slug: ignatius-of-antioch-ephesians
 layout: single
+weight: 1
 ---
 
 ## Listen to the Audio Version
@@ -98,4 +99,6 @@ My soul be for yours and theirs whom, for the honour of God, you have sent to Sm
 
 ## Sources
 
-Source. Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight. <http://www.newadvent.org/fathers/0104.htm>.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight. <http://www.newadvent.org/fathers/0104.htm>.
+
+- [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

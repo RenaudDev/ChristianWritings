@@ -2,6 +2,7 @@
 title: "The Epistle of Ignatius to the Trallians"
 slug: ignatius-of-antioch-trallians
 layout: single
+weight: 3
 ---
 ## Listen to the Audio Version
 {{< audio src="https://audio.christianwritings.org/ignatius3.mp3" >}}

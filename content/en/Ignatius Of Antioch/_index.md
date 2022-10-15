@@ -7,6 +7,7 @@ tags:
 - apostolic
 timeline: AD 35 - 108
 layout: list
+weight: 2
 ---
 
 ## Who Was St. Ignatius of Antioch?

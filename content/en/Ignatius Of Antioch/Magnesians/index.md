@@ -2,6 +2,7 @@
 title: "The Epistle of Ignatius to the Magnesians"
 slug: ignatius-of-antioch-magnesians
 layout: single
+weight: 2
 ---
 
 ## Listen to the Audio Version
@@ -56,6 +57,6 @@ Knowing as I do that you are full of God, I have but briefly exhorted you. Be mi
 The Ephesians from Smyrna (whence I also write to you), who are here for the glory of God, as you also are, who have in all things refreshed me, salute you, along with [Polycarp](/polycarp-of-smyrna), the bishop of the Smyrnæans. The rest of the Churches, in honour of Jesus Christ, also salute you. Fare well in the harmony of God, you who have obtained the inseparable Spirit, who is Jesus Christ.
 
 ## Sources
-Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight. 
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for [New Advent](http://www.newadvent.org/fathers/0105.htm) by Kevin Knight. 
 
-http://www.newadvent.org/fathers/0105.htm.
+- [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

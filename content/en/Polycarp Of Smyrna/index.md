@@ -5,6 +5,7 @@ description: Polycarp AD 69 – 155 was a Christian bishop of Smyrna. According 
 tags:
 - Apostolic Father
 timeline: AD 69 – 155
+weight: 3
 ---
 ## Who Was St. Polycarp of Smyrna?
 **Polycarp** AD 69 – 155 was a Christian bishop of Smyrna. According to the Martyrdom of Polycarp, he died a martyr, bound and burned at the stake, then stabbed when the fire failed to consume his body. Polycarp of Smyrna is regarded as a saint and Church Father in the Catholic, Eastern Orthodox, Oriental Orthodox, Anglican, and Lutheran churches.
