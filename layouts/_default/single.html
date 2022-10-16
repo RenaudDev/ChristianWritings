@@ -12,13 +12,16 @@
 <span></span>
 {{ else }}
 <div class="content-margin">
+  <ul class="breadcrumbs list-layout flex-row">
 {{ if .NextInSection }}
-  <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+  <li><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a></li>
 {{ end }}
-{{ if and .PrevInSection .NextInSection }} | {{ end }}
+
+<li>{{ if and .PrevInSection .NextInSection }} | {{ end }}</li>
 {{ if .PrevInSection }}
-  <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+   <li><a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a></li>
 {{ end }}
+</ul>
 </div>
 {{ end }}
 

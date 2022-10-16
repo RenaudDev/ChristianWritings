@@ -1,12 +1,12 @@
 .breadcrumbs {
-  @include font-bold;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  font-size: 0.9rem !important;
 
   a {
     color: var(--color-text);
     border-bottom: 2px solid transparent;
+    
 
     &:hover {
       border-bottom-color: var(--color-text-secondary);
@@ -15,5 +15,7 @@
 
   li {
     display: inline;
+    padding-right: 4px;
+    
   }
 }

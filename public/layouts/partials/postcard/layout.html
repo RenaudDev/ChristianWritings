@@ -1,6 +1,7 @@
 {{ $ctx := .ctx }}
 {{ $pages := .pages }}
 
+
 <div class="postcard-layout content-margin">
     {{ range ($ctx.Paginator).Pages }}
         <a href="{{ .Permalink }}">
