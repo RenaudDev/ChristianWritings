@@ -8,11 +8,39 @@
     {{ partial "collapsible-menu.html" (dict "type" "toc" "context" . "enable" $enable_collapsible_toc) }}
 {{ end }}
 
+{{ if not .Params.bible }}
+<span></span>
+{{ else }}
+<div class="content-margin">
+{{ if .NextInSection }}
+  <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+{{ end }}
+{{ if and .PrevInSection .NextInSection }} | {{ end }}
+{{ if .PrevInSection }}
+  <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+{{ end }}
+</div>
+{{ end }}
+
 {{ if .Content }}
     <div class="content-margin">
         
         {{- partial "content.html" . -}}
-    </div>
 {{ end }}
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="christianwr" data-color="#FFDD00" data-emoji=""  data-font="Inter" data-text="Encourage The Project" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
+{{ if not .Params.bible }}
+<span></span>
+{{ else }}
+<hr>
+<div class="content-margin">
+{{ if .NextInSection }}
+  <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+{{ end }}
+{{ if and .PrevInSection .NextInSection }} | {{ end }}
+{{ if .PrevInSection }}
+  <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+{{ end }}
+</div>
+{{ end }}
+
 {{- end -}}

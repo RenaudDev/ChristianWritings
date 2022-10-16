@@ -6,7 +6,7 @@ tags:
 - Apostolic Father
 - apostolic
 timeline: AD 35 - 108
-layout: list
+type: postcard
 weight: 2
 ---
 

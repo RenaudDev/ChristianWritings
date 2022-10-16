@@ -5,7 +5,7 @@ description:
 tags:
 - Apostolic Father
 timeline: AD 35 - 99
-layout: list
+type: postcard
 weight: 1
 ---
 ## Who Was St. Clement Of Rome?

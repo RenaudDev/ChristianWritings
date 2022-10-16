@@ -1,11 +1,12 @@
 {{ define "content" }}
 
-{{ if and .Content (eq .Paginator.PageNumber 1) }}
-    <div class="content-margin">
-        {{- partial "content.html" . -}}
-    </div>
-{{ end }}
-
+<h1>{{ .Title }}</h1>
+<div class="highlight" style="font-size: 12px; font-weight: bold;">{{ .Params.timeline }}</div>
+<div class="content-margin">
+    <article>
+{{ .Content }}
+</article>
+</div>
 {{ partial "postcard/layout.html" (dict "pages" .RegularPages "ctx" .) }}
 
 {{ end }}

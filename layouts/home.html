@@ -9,6 +9,9 @@
     {{ with .Pages.ByPublishDate }}
     <div class="postcard-layout content-margin">
             {{ range . }}
+            {{ if .Params.hidden }}
+            <span></span>
+            {{ else }}
             <a href="{{ .RelPermalink }}">
                     <div class="postcard-item">
                         <div class="postcard-title">
@@ -26,6 +29,7 @@
                         </div>
                     </div>
                 </a>
+                {{ end }}
             {{ end }}
     </div>
     {{ end }}

@@ -2,9 +2,9 @@
 {{ $cover_src_dark := .Params.bookcase_cover_src_dark | default .Params.bookcase_cover_src }}
 
 <div class="bookcase-item">
-    <figure>
-        <img src="{{ $cover_src | relURL }}" class="bookcase-item-img-light">
-        <img src="{{ $cover_src_dark | relURL }}" class="bookcase-item-img-dark">
+    <figure >
+        <img src="/journal.png" class="bookcase-item-img-light">
+        <img src="/journal_dark.png" class="bookcase-item-img-dark">
         <a href="{{ .RelPermalink }}" class="bookcase-item-overlay"></a>
     </figure>
     <figcaption>
