@@ -1,5 +1,5 @@
 {{ define "content" }}
-
+{{- partial "breadcrumbs.html" . -}}
 {{ if and .Content (eq .Paginator.PageNumber 1) }}
     <div class="" >
         {{- partial "content.html" . -}}
