@@ -6,6 +6,7 @@ theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
 enableEmoji = false
 paginate = 5
+summaryLength = 10
 
 [Params]
 
