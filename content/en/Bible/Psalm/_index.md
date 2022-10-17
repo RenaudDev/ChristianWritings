@@ -1,0 +1,14 @@
+---
+title: Book Of Psalms
+layout: _default/list
+weight: 19
+---
+
+# Book Of Psalms
+
+The book of Psalms is an intricately designed collection of poetry that recounts Israel's history and God's covenant promises. The book of Psalms is an intricately designed collection of poetry that recounts Israel's history and God's covenant promises. The book of Psalms poetically retells the entire biblical story.
+
+## Overview of the Book Of Psalms
+{{< youtube j9phNEaPrv8 >}}
+
+## Chapters Of the Book Of Psalms
