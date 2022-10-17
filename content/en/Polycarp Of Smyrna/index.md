@@ -2,9 +2,9 @@
 title: St. Polycarp of Smyrna
 slug: polycarp-of-smyrna
 description: Polycarp AD 69 – 155 was a Christian bishop of Smyrna. According to the Martyrdom of Polycarp, he died a martyr, bound and burned at the stake, then stabbed when the fire failed to consume his body.
+timeline: AD 69 – 155
 tags:
 - Apostolic Father
-timeline: AD 69 – 155
 weight: 3
 type: postcard
 ---
