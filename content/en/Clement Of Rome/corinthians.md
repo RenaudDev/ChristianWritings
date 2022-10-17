@@ -3,7 +3,7 @@ title: "Letter to the Corinthians"
 enableToc: true
 slug: letter-to-the-corinthians
 ---
-
+[Genesis 1](/bible/genesis/gen-01)
 ## Listen to the Audio Version
 
 ### Chapter 1-10
