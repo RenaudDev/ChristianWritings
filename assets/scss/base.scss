@@ -150,4 +150,8 @@ audio {
 .flex-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+.list-layout li {
+  margin-bottom: 0 !important;
 }

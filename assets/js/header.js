@@ -54,3 +54,4 @@ window.addEventListener("DOMContentLoaded", function () {
         dark_mode_btn.classList.remove('hidden');
     });
 });
+
