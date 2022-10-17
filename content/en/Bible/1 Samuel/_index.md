@@ -3,7 +3,7 @@ title: Book Of 1 Samuel
 layout: _default/list
 weight: 9
 ---
-# Book of Samuel
+# Book of 1 Samuel
 
 The book of 1 Samuel outlines the fall of King Saul and David's rise to the throne as a humble servant of God. The book of 1 Samuel outlines the fall of King Saul and David's rise to the throne as a humble servant of God. God raises up two kings, one proud and the other humble. [ [Source](https://bibleproject.com/explore/video/1-samuel/)]
 
