@@ -12,4 +12,5 @@ The book of 2 Samuel continues to show us the virtue of humility, the destructiv
 ## Overview of the Book of Samuel
 {{< youtube YvoWDXNDJgs >}}
 
+
 ## Chapters Of the Book Of Samuel
