@@ -30,7 +30,7 @@
         {{ template "_internal/pagination.html" . }}
     {{ end }}
 {{ else }}
-    <div class=" flex-bible">
+    <div class="flex-bible">
         {{- partial "list.html" (dict "pages" $pages "show_date" $show_date "group_by_year" $group_by_year) -}}
     </div>
     {{ if $pagination }}

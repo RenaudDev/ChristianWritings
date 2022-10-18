@@ -4,7 +4,6 @@ layout: _default/list
 tags:
 - Old Testament
 - Prophet
-- Major Prophet
 weight: 25
 ---
 # Book Of Lamentations
