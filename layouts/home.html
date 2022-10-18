@@ -5,33 +5,4 @@
         {{- partial "content.html" . -}}
     </div>
 {{ end }}
-  <div>
-    {{ with .Pages.ByPublishDate }}
-    <div class="postcard-layout content-margin">
-            {{ range . }}
-            {{ if .Params.hidden }}
-            <span></span>
-            {{ else }}
-            <a href="{{ .RelPermalink }}">
-                    <div class="postcard-item">
-                        <div class="postcard-title">
-                            <h3 style="padding-top: 0px; margin-top: 0px;">
-                            {{- .Title -}}
-                        </h3>
-                        </div>
-                        <div class="postcard-summary">
-                            <span>
-                            <strong>{{- .Params.timeline -}}</strong>
-                            </span>
-                            <span>
-                            <strong class="highlight">{{- .Params.tags -}}</strong>
-                            </span>
-                        </div>
-                    </div>
-                </a>
-                {{ end }}
-            {{ end }}
-    </div>
-    {{ end }}
-</div>
 {{ end }}
