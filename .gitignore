@@ -1,3 +1,4 @@
 resources/
 .obsidian/
 node_modules
+public/
