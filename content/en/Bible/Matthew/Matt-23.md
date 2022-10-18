@@ -1,7 +1,7 @@
 ---
 toc: false
 bible: true
-weight: 1
+weight: 3
 title: Matthew 23
 ---
 

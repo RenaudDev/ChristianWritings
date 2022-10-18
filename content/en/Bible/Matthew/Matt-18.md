@@ -1,7 +1,7 @@
 ---
 toc: false
 bible: true
-weight: 1
+weight: 2
 title: Matthew 18
 ---
 
