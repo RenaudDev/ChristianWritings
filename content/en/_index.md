@@ -11,7 +11,7 @@ On our website, you will find a comprehensive database of information about the 
 
 We hope that you will find ChristianWritings.com a valuable resource in your faith journey. Thank you for visiting us, and may God bless you in your studies.
 
-## Search Our Website
+## Search Our Database
 {{< pagefind >}}
 
 ## Apostolic Fathers

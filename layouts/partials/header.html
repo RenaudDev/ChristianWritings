@@ -25,14 +25,15 @@
             </svg>
         </div>
 
-        {{ if (.Scratch.Get "params").enable_site_search }}
-            <div id="search_tool">
+        
+        <a href="/search">
+            <div id="">
                 <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
                     {{- partial "svg/search.html" -}}
                 </svg>
-                {{- partial "search-menu.html" -}}
             </div>
-        {{ end }}
+        </a>
+        
 
         {{ if .Site.IsMultiLingual }}
             <div id="translation_tool" class="dropdown-wrapper pure-menu pure-menu-horizontal toolbox-btn">
