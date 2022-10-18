@@ -1,4 +1,5 @@
 {{- define "content" -}}
+<div data-pagefind-body>
 {{- partial "breadcrumbs.html" . -}}
 <h1>{{ .Title }}</h1>
 <div class="highlight" style="font-size: 12px; font-weight: bold;">{{ .Params.timeline }}</div>
@@ -45,5 +46,5 @@
 {{ end }}
 </div>
 {{ end }}
-
+</div>
 {{- end -}}
