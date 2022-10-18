@@ -1,6 +1,8 @@
 ---
 title: Book Of 2 Kings
 layout: _default/list
+tags:
+- Old Testament
 weight: 12
 ---
 # Book of 2 Kings

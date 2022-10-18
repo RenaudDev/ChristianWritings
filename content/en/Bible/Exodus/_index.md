@@ -1,6 +1,8 @@
 ---
 title: Book of Exodus
 layout: _default/list
+tags:
+- Old Testament
 weight: 2
 ---
 # Book of Exodus

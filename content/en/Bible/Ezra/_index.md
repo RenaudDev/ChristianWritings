@@ -1,6 +1,8 @@
 ---
 title: Book Of Ezra
 layout: _default/list
+tags:
+- Old Testament
 weight: 15
 ---
 

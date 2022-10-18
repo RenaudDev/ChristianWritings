@@ -1,6 +1,8 @@
 ---
 title: Book Of Esther
 layout: _default/list
+tags:
+- Old Testament
 weight: 17
 ---
 

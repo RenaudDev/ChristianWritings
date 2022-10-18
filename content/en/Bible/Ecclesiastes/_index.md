@@ -1,6 +1,8 @@
 ---
 title: Book Of Ecclesiastes
 layout: _default/list
+tags:
+- Old Testament
 weight: 21
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: Book Of Nehemiah
 layout: _default/list
+tags:
+- Old Testament
 weight: 16
 ---
 # Book of Nehemiah

@@ -1,6 +1,8 @@
 ---
 title: Book Of 2 Samuel
 layout: _default/list
+tags:
+- Old Testament
 weight: 10
 ---
 # Book of 2 Samuel

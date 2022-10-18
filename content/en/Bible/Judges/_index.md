@@ -1,6 +1,8 @@
 ---
 title: Book Of Judges
 layout: _default/list
+tags:
+- Old Testament
 weight: 7
 ---
 # Book of Judges

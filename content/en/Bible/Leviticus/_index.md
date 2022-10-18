@@ -1,6 +1,8 @@
 ---
 title: Book Of Leviticus
 layout: _default/list
+tags:
+- Old Testament
 weight: 3
 ---
 # Book of Leviticus

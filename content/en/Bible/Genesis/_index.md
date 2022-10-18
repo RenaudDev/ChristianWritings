@@ -1,6 +1,8 @@
 ---
 title: Book of Genesis
 layout: _default/list
+tags:
+- Old Testament
 weight: 1
 ---
 # Book of Genesis

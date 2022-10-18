@@ -1,6 +1,8 @@
 ---
 title: Book Of Psalms
 layout: _default/list
+tags:
+- Old Testament
 weight: 19
 ---
 

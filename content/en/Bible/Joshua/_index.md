@@ -1,6 +1,8 @@
 ---
 title: Book Of Joshua
 layout: _default/list
+tags:
+- Old Testament
 weight: 6
 ---
 # Book of Joshua

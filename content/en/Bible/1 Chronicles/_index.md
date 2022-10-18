@@ -1,6 +1,8 @@
 ---
 title: Book Of 1 Chronicles
 layout: _default/list
+tags:
+- Old Testament
 weight: 13
 ---
 

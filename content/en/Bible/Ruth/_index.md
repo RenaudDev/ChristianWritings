@@ -1,6 +1,8 @@
 ---
 title: Book Of Ruth
 layout: _default/list
+tags:
+- Old Testament
 weight: 8
 ---
 # Book of Ruth

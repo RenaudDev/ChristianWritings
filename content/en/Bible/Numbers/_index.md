@@ -1,6 +1,8 @@
 ---
 title: Book Of Numbers
 layout: _default/list
+tags:
+- Old Testament
 weight: 4
 ---
 # Book of Numbers

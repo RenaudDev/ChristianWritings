@@ -1,6 +1,8 @@
 ---
 title: Book Of Job
 layout: _default/list
+tags:
+- Old Testament
 weight: 18
 ---
 

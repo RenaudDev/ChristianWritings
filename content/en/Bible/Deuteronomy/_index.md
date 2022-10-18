@@ -1,6 +1,8 @@
 ---
 title: Book Of Deuteronomy
 layout: _default/list
+tags:
+- Old Testament
 weight: 5
 ---
 # Book of Deuteronomy

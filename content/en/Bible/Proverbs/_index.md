@@ -1,6 +1,8 @@
 ---
 title: Book Of Proverbs
 layout: _default/list
+tags:
+- Old Testament
 weight: 20
 ---
 # Book of Proverbs

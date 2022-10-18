@@ -1,6 +1,8 @@
 ---
 title: Book Of 1 Samuel
 layout: _default/list
+tags:
+- Old Testament
 weight: 9
 ---
 # Book of 1 Samuel

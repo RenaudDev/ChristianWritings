@@ -1,6 +1,8 @@
 ---
 title: Book Of 2 Chronicles
 layout: _default/list
+tags:
+- Old Testament
 weight: 14
 ---
 
