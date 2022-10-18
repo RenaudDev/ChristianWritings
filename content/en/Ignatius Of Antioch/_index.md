@@ -3,9 +3,8 @@ title: St. Ignatius Of Antioch
 description: Who Was St. Ignatius of Antioch? Ignatius of Antioch** also known as Ignatius Theophorus meaning "the God-bearing"), was an early Christian writer and Patriarch of Antioch. While en route to Rome, where he met his martyrdom, Ignatius wrote a series of letters.
 slug: ignatius-of-antioch
 tags:
-- Apostolic Father
+- Apostolic
 timeline: AD 35 - 108
-type: postcard
 weight: 2
 ---
 

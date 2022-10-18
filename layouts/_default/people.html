@@ -1,0 +1,35 @@
+{{ define "content" }}
+
+{{- partial "breadcrumbs.html" . -}}
+{{ if .Content }}
+    <div class="content-margin">
+        {{- partial "content.html" . -}}
+    </div>
+{{ end }}
+{{ range (.GetTerms "tags") }}
+    {{ $currTag := .LinkTitle }}
+{{ end }}
+{{ $taggedPages := index .Site.Taxonomies.tags.apostolic.Pages }}
+
+    {{ range $taggedPages }}
+    <div class="postcard-layout">
+        <a href="{{ .Permalink }}">
+            <div class="postcard-item">
+                <div class="postcard-title">
+                
+                    <h3 style="padding-top: 0px; margin-top: 0px;">{{ .LinkTitle }}</h3>
+                </div>
+                <div class="postcard-summary">
+                    <span>
+                    <strong>{{- .Params.timeline -}}</strong>
+                    </span>
+                    <span>
+                    <strong class="highlight">{{- .Params.tags -}}</strong>
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    {{ end }}
+
+{{ end }}

@@ -3,9 +3,8 @@ title: St. Clement Of Rome
 slug: clement-of-rome
 description: 
 tags:
-- Apostolic Father
+- Apostolic
 timeline: AD 35 - 99
-type: postcard
 weight: 1
 ---
 ## Who Was St. Clement Of Rome?

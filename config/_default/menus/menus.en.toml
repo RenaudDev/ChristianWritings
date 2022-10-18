@@ -9,3 +9,10 @@
   name = "Bible"
   url = "/bible/"
   weight = 2
+
+[[navbar]]
+  identifier = "Apostolic Fathers"
+  name = "Apostolic Fathers"
+  url = "/apostolic-fathers/"
+  weight = 2
+  

@@ -12,15 +12,23 @@
     {{ $min := int (index $termCount 0) }}
     {{ $max := add (int (index $termCount (sub (len $termCount) 1))) 1 }}
 
-    <div>
+    <ul class="list-layout">
         {{ range . }}
             {{ $weight := div (sub (math.Log .Count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
             {{ $fontSize := (add $fontSmall (mul $fontSpread $weight)) }}
 
-            <a class="term-item" href="{{ .Page.RelPermalink }}">
-                <span style="font-size:{{ $fontSize }}rem">{{- .Page.Title -}}</span>
+
+            <li class="flex-bible" style="margin-bottom: 10px !important;">
+                <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/bookmark-ribbon.png" class="bookcase-item-img-light">
+                <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/bookmark-ribbon_dark.png" class="bookcase-item-img-dark">
+                <a style="" href="{{ .Page.RelPermalink }}">
+                    
+                    {{- .Page.Title -}}
+                </a>
                 <span style="font-size:{{ sub $fontSmall 0.2 }}rem"> ({{- .Count -}}) </span>
+            </li>
+            
             </a>
         {{ end }}
-    </div>
+    </ul>
 {{ end }}
