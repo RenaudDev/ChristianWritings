@@ -1,4 +1,5 @@
 {{ define "content" }}
+<div data-pagefind-body>
 {{- partial "breadcrumbs.html" . -}}
 {{ if and .Content (eq .Paginator.PageNumber 1) }}
     <div class="">
@@ -33,9 +34,6 @@
     <div class="flex-bible">
         {{- partial "list.html" (dict "pages" $pages "show_date" $show_date "group_by_year" $group_by_year) -}}
     </div>
-    {{ if $pagination }}
-        {{ template "_internal/pagination.html" . }}
-    {{ end }}
 {{ end }}
-
+</div>
 {{ end }}
