@@ -7,7 +7,7 @@ theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
 enableEmoji = false
 paginate = 5
-summaryLength = 9
+summaryLength = 10
 
 [sitemap]
   changefreq = 'monthly'

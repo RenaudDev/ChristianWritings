@@ -1,5 +1,5 @@
 ---
-Title: Homepage
+title: Early Writings Of The Church
 description: Welcome to ChristianWritings.com, a collaborative project that provides accurate and up-to-date information about the early church fathers and their writings.
 sitemap:
   changefreq: weekly

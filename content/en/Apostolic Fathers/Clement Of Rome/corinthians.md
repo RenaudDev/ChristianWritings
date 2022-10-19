@@ -7,7 +7,6 @@ sitemap:
   changefreq: weekly
   priority: 0.8
 ---
-[Genesis 1](/bible/genesis/gen-01)
 ## Listen to the Audio Version
 
 ### Chapter 1-10

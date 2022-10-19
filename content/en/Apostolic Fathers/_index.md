@@ -1,5 +1,5 @@
 ---
-Title: Apostolic Fathers
+title: Writings Of The Apostolic Fathers
 slug: apostolic-fathers
 hidden: true
 layout: people
