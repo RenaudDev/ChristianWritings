@@ -1,6 +1,9 @@
 ---
 Title: Homepage
 description: Welcome to ChristianWritings.com, a collaborative project that provides accurate and up-to-date information about the early church fathers and their writings.
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 # Discover The Early Writings Of The Church
 Welcome to ChristianWritings.com, a collaborative project that provides accurate and up-to-date information about the early church fathers and their writings. We aim to provide resources that will be useful for students, scholars, and laypeople.

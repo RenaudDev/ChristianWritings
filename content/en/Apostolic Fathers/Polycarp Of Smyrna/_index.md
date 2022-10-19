@@ -6,6 +6,9 @@ timeline: AD 69 – 155
 tags:
 - Apostolic 
 weight: 3
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 # St. Polycarp of Smyrna
 ## Who Was St. Polycarp of Smyrna?

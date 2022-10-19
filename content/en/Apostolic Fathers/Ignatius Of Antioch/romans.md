@@ -3,6 +3,9 @@ title: "The Epistle of Ignatius of Antioch to the Romans"
 slug: ignatius-of-antioch-romans
 layout: single
 weight: 4
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 
 ## Listen to the Audio Version

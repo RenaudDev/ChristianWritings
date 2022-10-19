@@ -3,6 +3,9 @@ title: "Epistle of Polycarp to the Philippians"
 slug: polycarp-of-smyrna-philippians
 layout: single
 weight: 1
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 ## Listen to the Audio Version
 {{< audio src="https://audio.christianwritings.org/polycarp.mp3" >}}

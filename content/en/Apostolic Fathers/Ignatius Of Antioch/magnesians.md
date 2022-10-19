@@ -3,6 +3,9 @@ title: "The Epistle of Ignatius to the Magnesians"
 slug: ignatius-of-antioch-magnesians
 layout: single
 weight: 2
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 
 ## Listen to the Audio Version

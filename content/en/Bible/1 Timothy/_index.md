@@ -1,6 +1,9 @@
 ---
 title: First Epistles to Timothy
 layout: _default/list
+sitemap:
+  changefreq: monthly
+  priority: 0.6
 tags:
 - New Testament
 - Epistle

@@ -1,6 +1,9 @@
 ---
 title: Second Epistle of St. Peter the Apostle
 layout: _default/list
+sitemap:
+  changefreq: monthly
+  priority: 0.6
 tags:
 - New Testament
 - Epistle

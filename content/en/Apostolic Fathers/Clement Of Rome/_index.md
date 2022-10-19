@@ -6,6 +6,9 @@ tags:
 - Apostolic
 timeline: AD 35 - 99
 weight: 1
+sitemap:
+  changefreq: monthly
+  priority: 0.8
 ---
 # St. Clement Of Rome
 ## Who Was St. Clement Of Rome?

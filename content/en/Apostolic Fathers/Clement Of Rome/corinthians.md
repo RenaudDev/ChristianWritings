@@ -3,6 +3,9 @@ title: "Letter to the Corinthians"
 enableToc: true
 slug: letter-to-the-corinthians
 audio: https://audio.christianwritings.org/1_clement_01-10.mp3
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 [Genesis 1](/bible/genesis/gen-01)
 ## Listen to the Audio Version

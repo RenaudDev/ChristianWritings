@@ -1,6 +1,9 @@
 ---
 title: Gospel According To Mark
 layout: _default/list
+sitemap:
+  changefreq: monthly
+  priority: 0.6
 tags:
 - New Testament
 - Gospel

@@ -1,6 +1,9 @@
 ---
 title: Acts of the Apostles
 layout: _default/list
+sitemap:
+  changefreq: monthly
+  priority: 0.6
 tags:
 - New Testament
 weight: 44

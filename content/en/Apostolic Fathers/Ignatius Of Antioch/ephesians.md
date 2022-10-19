@@ -4,6 +4,9 @@ enableToc: true
 slug: ignatius-of-antioch-ephesians
 layout: single
 weight: 1
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 
 ## Listen to the Audio Version

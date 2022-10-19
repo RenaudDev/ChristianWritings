@@ -3,6 +3,9 @@ title: "The Epistle of Ignatius to the Philadelphians"
 slug: ignatius-of-antioch-philadelphians
 layout: single
 weight: 5
+sitemap:
+  changefreq: weekly
+  priority: 0.8
 ---
 
 ## Listen to the Audio Version

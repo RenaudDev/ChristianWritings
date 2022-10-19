@@ -1,6 +1,9 @@
 ---
 title: Book Of 1 Kings
 layout: _default/list
+sitemap:
+  changefreq: monthly
+  priority: 0.6
 tags:
 - Old Testament
 weight: 11
