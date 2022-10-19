@@ -21,6 +21,8 @@
             {{- partial "header.html" . -}}
             {{- partial "nav.html" . -}}
             {{- partial "sidebar.html" . -}}
+<span></span>
+<span></span>
             <div id="content" class="content-margin">
                 {{ if .Params.changelogs }}
                     {{ $enable_collapsible_changelogs := (.Scratch.Get "params").enable_collapsible_changelogs }}
