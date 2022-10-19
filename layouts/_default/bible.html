@@ -1,0 +1,32 @@
+{{ define "content" }}
+
+{{- partial "breadcrumbs.html" . -}}
+{{ if .Content }}
+    <div class="content-margin">
+        {{- partial "content.html" . -}}
+    </div>
+{{ end }}
+{{ $currPermalink := .Page.RelPermalink }}
+{{ range (.GetTerms "tags") }}
+    {{ $currTag := .LinkTitle }}
+{{ end }}
+{{ $taggedPages := (index .Site.Taxonomies.tags (lower $currTag)).Pages }}
+
+
+    <ul class="list-layout">
+        {{ range $taggedPages }}
+        {{ if not (eq .RelPermalink $currPermalink) }}
+            <li class="flex-bible" style="margin-bottom: 10px !important;">
+                <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/people.png" class="bookcase-item-img-light">
+                <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/people_dark.png" class="bookcase-item-img-dark">
+                <a style="" href="{{ .RelPermalink }}">
+                    
+                    {{ .LinkTitle }}
+                </a>
+            </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}
+
+
