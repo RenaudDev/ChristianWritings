@@ -5,7 +5,7 @@ tags:
 - New Testament
 - Gospel
 - Synoptic Gospel
-weight: 40
+weight: 42
 ---
 # Gospel According To Luke
 

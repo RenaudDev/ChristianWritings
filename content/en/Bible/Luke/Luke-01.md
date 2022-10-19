@@ -4,7 +4,7 @@ bible: true
 weight: 1
 title: Luke 1
 ---
-
+ 
 
 
 ###### v1 
