@@ -1,13 +1,12 @@
 baseURL = "https://www.christianwritings.org/"
 languageCode = "en"
 title = "✟ Christian Writings ✟"
-relativeURLs = "true"
 
 theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
 enableEmoji = false
 paginate = 5
-summaryLength = 10
+summaryLength = 9
 
 [sitemap]
   changefreq = 'monthly'
