@@ -1,6 +1,7 @@
 baseURL = "https://www.christianwritings.org/"
 languageCode = "en"
 title = "✟ Christian Writings ✟"
+canonifyURLs = true
 
 theme = "hugo-theme-monochrome"
 defaultContentLanguage = "en"
