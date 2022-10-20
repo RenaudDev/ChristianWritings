@@ -32,6 +32,8 @@
         {{- partial "content.html" . -}}
 {{ end }}
 
+{{ partial "backlinks.html" . }}
+
 {{ if not .Params.bible }}
 <span></span>
 {{ else }}
