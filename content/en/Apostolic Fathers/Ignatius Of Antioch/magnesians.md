@@ -1,5 +1,6 @@
 ---
 title: "The Epistle of Ignatius to the Magnesians"
+author: St. Ignatius Of Antioch
 slug: ignatius-of-antioch-magnesians
 layout: single
 weight: 2

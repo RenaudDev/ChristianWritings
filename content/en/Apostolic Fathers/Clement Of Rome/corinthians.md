@@ -1,5 +1,6 @@
 ---
 title: "Letter to the Corinthians"
+author: St. Clement Of Rome
 enableToc: true
 slug: letter-to-the-corinthians
 audio: https://audio.christianwritings.org/1_clement_01-10.mp3

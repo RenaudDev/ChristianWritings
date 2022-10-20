@@ -37,13 +37,34 @@
     {{ end }}
 
     {{ if .Params.timeline }}
-    <meta property="og:type" content="books">
+    <meta property="og:type" content="books.author">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
-    
     {{ end }}
 
     {{ if .Params.enableToc }}
+    <meta property="og:type" content="books">
+    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
 
+    <script type="application/ld+json">
+        {
+             "@context": "https://schema.org",
+             "@graph": [
+                  {
+                       "@id": "#author",
+                       "@type": "Person",
+                       "name": "{{ .Params.author }}"
+                  },
+                  {
+                       "@id": "#letter",
+                       "@type": "Book",
+                       "name": "{{ .Title }}",
+                       "inLanguage": "en",
+                       "genre": "Epistle",
+                       "author": "Person"
+                  }
+             ]
+        }
+        </script>
     {{ end }}
 
     {{ if (.Scratch.Get "params").enable_twitter_cards }}

@@ -1,6 +1,7 @@
 ---
 title: "The Epistle of Ignatius to the Trallians"
 slug: ignatius-of-antioch-trallians
+author: St. Ignatius Of Antioch
 layout: single
 weight: 3
 sitemap:
