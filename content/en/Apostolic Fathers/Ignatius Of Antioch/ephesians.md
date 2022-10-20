@@ -1,5 +1,5 @@
 ---
-title: "The Epistle of Ignatius of Antioch to the Ephesians"
+title: "The Epistle to the Ephesians"
 author: St. Ignatius Of Antioch
 enableToc: true
 slug: ignatius-of-antioch-ephesians

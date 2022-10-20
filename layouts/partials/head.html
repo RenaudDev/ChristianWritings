@@ -3,12 +3,10 @@
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        {{- if eq .Kind "home" -}}
-            {{- print .Site.Title -}}
-        {{- else if eq .Kind "section" -}}
-            {{- print .CurrentSection.Title " - " }} ✟ Christian Writings ✟
-        {{- else -}}
-            {{- print .Title " - "  -}} ✟ Christian Writings ✟
+        {{ if .Params.enableToc }}
+        {{- print .Title " by " -}} {{- print .Params.author -}}
+        {{ else }}
+        {{- print .Title " - "  -}} ✟ Christian Writings ✟
         {{- end -}}
     </title>
     <meta name="description" content="{{ .Summary }}" />

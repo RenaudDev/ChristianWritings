@@ -1,5 +1,5 @@
 ---
-title: "The Epistle of Ignatius to the Trallians"
+title: "Epistle to the Trallians"
 slug: ignatius-of-antioch-trallians
 author: St. Ignatius Of Antioch
 layout: single
@@ -37,7 +37,7 @@ I therefore, yet not I, but the love of Jesus Christ, entreat you that you use C
 Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles. He that is within the altar is pure, but he that is without is not pure; that is, he who does anything apart from the bishop, and presbytery, and deacons, such a man is not pure in his conscience.
 
 ## 9. Be on your guard against the snares of the devil
-Not that I know there is anything of this kind among you; but I put you on your guard, inasmuch as I love you greatly, and foresee the snares of the devil. Wherefore, clothing yourselves with meekness, be renewed in faith, that is the flesh of the Lord, and in love, that is the blood of Jesus Christ. Let no one of you cherish any grudge against his neighbour. Give no occasion to the Gentiles, lest by means of a few foolish men the whole multitude of those that believe in God be evil spoken of. [For, Woe to him by whose vanity my name is blasphemed among any.](https://www.biblegateway.com/passage/?search=Isaiah%2052%3A5&version=NKJV) 
+Not that I know there is anything of this kind among you; but I put you on your guard, inasmuch as I love you greatly, and foresee the snares of the devil. Wherefore, clothing yourselves with meekness, be renewed in faith, that is the flesh of the Lord, and in love, that is the blood of Jesus Christ. Let no one of you cherish any grudge against his neighbour. Give no occasion to the Gentiles, lest by means of a few foolish men the whole multitude of those that believe in God be evil spoken of. [{{< tooltip element="become the disciple of Him who gave Himself for us, an offering and sacrifice to God" title="Reference:" >}}Isaiah 52:5{{< /tooltip >}}](/bible/isaiah/isa-52/#v5#:~:text=%E2%80%9CNow%20therefore%2C%20what%20do%20I%20do%20here%2C%E2%80%9D%20says%20Yahweh%2C%20%E2%80%9Cseeing%20that%20my%20people%20are%20taken%20away%20for%20nothing%3F%20Those%20who%20rule%20over%20them%20mock%2C%E2%80%9D%20says%20Yahweh%2C%20%E2%80%9Cand%20my%20name%20is%20blasphemed%20continually%20all%20day%20long.) 
 
 ## 10. Reference to the history of Christ
 
@@ -56,5 +56,5 @@ I salute you from Smyrna, together with the Churches of God which are with me, w
 The love of the Smyrnæans and Ephesians salutes you. Remember in your prayers the Church which is in Syria, from which also I am not worthy to receive my appellation, being the last of them. Fare well in Jesus Christ, while you continue subject to the bishop, as to the command of God, and in like manner to the presbytery. And, every man, love one another with an undivided heart. Let my spirit be sanctified by yours, not only now, but also when I shall attain to God. For I am as yet exposed to danger. But the Father is faithful in Jesus Christ to fulfil both mine and your petitions: in whom may you be found unblameable.
 
 ## Source
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for [New Advent](http://www.newadvent.org/) by Kevin Knight.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by New Advent by Kevin Knight.
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius
