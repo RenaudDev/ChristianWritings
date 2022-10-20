@@ -72,6 +72,14 @@ a {
   color: var(--color-link);
   text-decoration: none;
 }
+article a {
+  color: var(--navbar-item-active);
+  border-bottom: 2px solid var(--color-border);
+
+  &:hover {
+    border-bottom-color: var(--color-text-secondary);
+  }
+}
 .highlight {
   color: var(--color-link) !important;
 }

@@ -8,11 +8,8 @@ sitemap:
 # Discover The Early Writings Of The Church
 Welcome to ChristianWritings.com, a collaborative project that provides easily accessible writings of the early church. We aim to provide resources that will be useful for students, scholars, and laypeople.
 
-{{< tooltip element="element with a hint" title="Title in hint" >}}
-Text <b>in a hint</b> using <i style="color:red">HTML tags</i>.
-{{< /tooltip >}}
-
 We believe that studying the early church fathers is essential for understanding the development of Christianity. Their writings are a treasure trove of wisdom and insight, and we are committed to making them accessible to as many people as possible.
+
 
 On our website, you will find a comprehensive database of information about the early church fathers and their writings. We bring together media gathered from Librevox, Youtube and Wikipedia to give people an enjoyable experience of discovering the early church fathers.
 

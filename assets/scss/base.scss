@@ -161,51 +161,17 @@ audio {
 #content {
   min-height: 90vh !important;
 }
+
+/* Tooltips */
 .hint--html {
-  display: inline;
-}
+  display: inline !important;
 
-.hint__content {
-  display: table;
-
-  padding: 1rem;
-  min-width: 30vw;
-  left: unset !important;
-  right: 50%;
-  margin-left: 0;
-  margin-right: 0;
-
-  color: var(--color-text);
-  background: var(--color-background-card);
-
-  border: 1px solid var(--color-border);
-
-  font-size: 1em;
-
-  & .hint--title {
-      display: block;
-
-      margin-bottom: .4em;
-
-      font-weight: bold;
-      font-size: 1.1em;
+  & .hint__title {
+    display: block;
+    margin-bottom: 5px;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .hint__content {
-      min-width: 80vw;
-      left: unset !important;
-      right: unset;
-      transform: unset !important;
+  & .hint__content {
+    min-width: 10vw;
   }
-}
-
-.hint--element {
-  display: inline;
-
-  text-decoration: underline dotted var(--color-text-secondary);
-  font-style: italic;
-
-  cursor: pointer;
 }
