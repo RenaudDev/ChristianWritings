@@ -23,25 +23,38 @@
 
     <meta name="robots" content="index">
 
+   
+    {{ if .IsHome }}
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{ .Summary }}">
-    {{ if .IsHome }}
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg">
     {{ end }}
     {{ if .Params.book }}
+    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="book">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGBible.jpg">
     {{ end }}
 
     {{ if .Params.timeline }}
+    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="books.author">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
     {{ end }}
 
     {{ if .Params.enableToc }}
+    <meta property="og:title" content="{{ .Title }} by {{ .Params.author }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="books">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
 
@@ -61,9 +74,29 @@
                        "inLanguage": "en",
                        "genre": "Epistle",
                        "author": "Person"
-                  }
+                  },
+                  {
+                    "@type": "WebSite",
+                    "@id": "https://www.christianwritings.org/#website",
+                    "url": "https://www.christianwritings.org/",
+                    "name": "{{ .Site.Title }}",
+                    "publisher": {
+                        "@id": "{{ .Site.BaseURL | absURL }}#organization"
+                    }
+                  },
+                  {
+                              "@type": "WebPage",
+                    "@id": "{{ .Permalink }}#webpage",
+                    "url": "{{ .Permalink }}",
+                    "name": "{{ .Title }} by {{ .Params.author }}",
+                              "primaryImageOfPage": {
+                        "@id": "{{ .Site.BaseURL | absURL }}OGApostolic.jpg"
+                    },
+                    "inLanguage": "en-US"
+                }
              ]
         }
+        
         </script>
         
     {{ end }}
