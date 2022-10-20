@@ -1,12 +1,12 @@
 ---
 title: Early Writings Of The Church
-description: Welcome to ChristianWritings.com, a collaborative project that provides accurate and up-to-date information about the early church fathers and their writings.
+description: Welcome to ChristianWritings.com, a collaborative project that provides easily accessible writings of the early church.
 sitemap:
   changefreq: weekly
   priority: 0.8
 ---
 # Discover The Early Writings Of The Church
-Welcome to ChristianWritings.com, a collaborative project that provides accurate and up-to-date information about the early church fathers and their writings. We aim to provide resources that will be useful for students, scholars, and laypeople.
+Welcome to ChristianWritings.com, a collaborative project that provides easily accessible writings of the early church. We aim to provide resources that will be useful for students, scholars, and laypeople.
 
 We believe that studying the early church fathers is essential for understanding the development of Christianity. Their writings are a treasure trove of wisdom and insight, and we are committed to making them accessible to as many people as possible.
 

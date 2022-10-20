@@ -4,6 +4,7 @@ layout: _default/list
 sitemap:
   changefreq: monthly
   priority: 0.6
+book: bible
 tags:
 - Old Testament
 weight: 5
