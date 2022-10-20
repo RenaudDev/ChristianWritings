@@ -32,7 +32,6 @@
         {{- partial "content.html" . -}}
 {{ end }}
 
-{{ partial "backlinks.html" . }}
 
 {{ if not .Params.bible }}
 <span></span>
@@ -49,4 +48,5 @@
 </div>
 {{ end }}
 </div>
+{{ partial "backlinks.html" (dict "page" .) }}
 {{- end -}}
