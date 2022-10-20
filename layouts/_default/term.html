@@ -2,6 +2,9 @@
 
 <div data-pagefind-ignore>
     <h1>{{ .Title }}</h1>
+    <div class="content-margin">
+        {{- partial "content.html" . -}}
+    </div>
     {{ with .Pages.ByPublishDate }}
         <ul class="list-layout">
             {{ range . }}
@@ -11,7 +14,6 @@
                     <a href="{{ .RelPermalink }}">
                         {{- .Title -}}
                     </a>
-
                 </li>
             {{ end }}
         </ul>
