@@ -31,7 +31,39 @@
     <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg">
+
+    <script type="application/ld+json">
+        {
+             "@context": "https://schema.org",
+             "@graph": [
+                  {
+                    "@type": "WebSite",
+                    "@id": "https://www.christianwritings.org/#website",
+                    "url": "https://www.christianwritings.org/",
+                    "name": "{{ .Site.Title }}",
+                    "publisher": {
+                        "@id": "{{ .Site.BaseURL | absURL }}#organization"
+                    }
+                  },
+                  {
+                              "@type": "WebPage",
+                    "@id": "{{ .Permalink }}#webpage",
+                    "url": "{{ .Permalink }}",
+                    "name": "{{ .Title }} - {{ .Site.Title }}",
+                              "primaryImageOfPage": {
+                        "@id": "{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg"
+                    },
+                    "inLanguage": "en-US"
+                }
+             ]
+        }
+        
+        </script>
     {{ end }}
+
+
+
+    
     {{ if .Params.book }}
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
