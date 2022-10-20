@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "html-hint": "^0.2.4",
     "pagefind": "^0.6.1"
   }
 }
