@@ -10,7 +10,7 @@
         {{- end -}}
     </title>
     <meta name="description" content="{{ .Summary }}" />
-
+    <link rel="canonical" href="{{ .Permalink }}">
     {{ with .Keywords }}
     <meta name="keywords" content="{{ delimit . "," }}" />
     {{ end }}
@@ -20,7 +20,7 @@
     {{ end }}
 
     <meta name="robots" content="index">
-
+    
    
     {{ if .IsHome }}
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
