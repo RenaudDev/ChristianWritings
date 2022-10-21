@@ -1,13 +1,14 @@
 <div id="sidebar_canvas_overlay" class="hidden" data-pagefind-ignore></div>
 <div id="sidebar" class="close">
-    <div>
-        <a class="homelogo" href="{{ .Site.Home.RelPermalink }}">
-            {{- with (.Scratch.Get "params").navbar_title }}
-                {{- . | safeHTML -}}
-            {{- end -}}
-        </a>
-    </div>
+    
     <ul>
+        <div style="margin-top:25px; margin-left: 20px;">
+            <a class="homelogo" href="{{ .Site.Home.RelPermalink }}">
+                {{- with (.Scratch.Get "params").navbar_title }}
+                    {{- . | safeHTML -}}
+                {{- end -}}
+            </a>
+        </div>
         {{- range .Site.Menus.navbar -}}
             {{- if .Children -}}
                 <li>

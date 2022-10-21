@@ -1,7 +1,6 @@
 <header>
     <div class="brand">
 
-
         <div>
             <a class="homelogo" href="{{ .Site.Home.RelPermalink }}">
                 {{- with (.Scratch.Get "params").navbar_title }}
@@ -29,12 +28,13 @@
                 </svg>
             </div>
         </a>
+        <div class="brand">
         <div id="sidebar_btn">
             <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
                 {{- partial "svg/menu.html" -}}
             </svg>
         </div>
-
+    </div>
         {{ if .Site.IsMultiLingual }}
             <div id="translation_tool" class="dropdown-wrapper pure-menu pure-menu-horizontal toolbox-btn">
                 <ul class="pure-menu-list">
