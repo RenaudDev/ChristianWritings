@@ -12,7 +12,7 @@
     <meta name="description" content="{{ .Summary }}" />
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#93c5fd" />
+    <meta name="theme-color" content="#ffffff" />
     {{ with .Keywords }}
     <meta name="keywords" content="{{ delimit . "," }}" />
     {{ end }}
@@ -156,6 +156,17 @@
             document.documentElement.setAttribute("data-theme", "light");
         }
     </script>
-
+<script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+  
+  document.querySelector('#show').addEventListener('click', () => {
+    const iconUrl = document.querySelector('select').selectedOptions[0].value;
+    let imgElement = document.createElement('img');
+    imgElement.src = iconUrl;
+    document.querySelector('#container').appendChild(imgElement);
+  });
+</script>
     {{- partial "resources/js.html" . -}}
 </head>
