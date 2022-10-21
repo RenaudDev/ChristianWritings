@@ -1,8 +1,8 @@
 {
   "name": "Christian Writings",
-  "short_name": "CW",
+  "short_name": "ChristianWritings",
   "description": "Early Church Fathers Writings",
-  "theme_color": "#93c5fd",
+  "theme_color": "#ffffff",
   "background_color": "#333333",
   "display": "standalone",
   "orientation": "portrait",
