@@ -10,7 +10,7 @@ sitemap:
 ---
 
 ## Listen to the Audio Version
-{{< audio src="https://audio.christianwritings.org/ignatius2.mp3" >}}
+{{< audio src="ignatius2.mp3"  title="The Epistle to the Magnesians by St. Ignatius Of Antioch"  >}}
 
 ## 1. Greeting
 Ignatius, who is also called Theophorus, to the Church blessed in the grace of God the Father, in Jesus Christ our Saviour, in whom I salute the Church which is at Magnesia, near the Mæander, and wish it abundance of happiness in God the Father, and in Jesus Christ.

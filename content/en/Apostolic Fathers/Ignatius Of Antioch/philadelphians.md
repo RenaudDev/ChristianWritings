@@ -10,7 +10,7 @@ sitemap:
 ---
 
 ## Listen to the Audio Version
-{{< audio src="https://audio.christianwritings.org/ignatius5.mp3" >}}
+{{< audio src="ignatius5.mp3" title="The Epistle to the Philadelphian by St. Ignatius Of Antioch" >}}
 Librevox: Lightfoot & Harmer, 1891 translation
 
 ## Greeting

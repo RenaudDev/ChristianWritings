@@ -1,7 +1,5 @@
 ---
 title: "Epistle to the Philippians"
-audio: 
-- https://audio.christianwritings.org/polycarp.mp3
 slug: polycarp-of-smyrna-philippians
 author: St. Polycarp of Smyrna
 layout: single
@@ -11,7 +9,7 @@ sitemap:
   priority: 0.8
 ---
 ## Listen to the Audio Version
-{{< audio src="https://audio.christianwritings.org/polycarp.mp3" >}}
+{{< audio src="polycarp.mp3" title="Epistle to the Trallians by St. Ignatius Of Antioch" >}}
 
 ## Greeting
 Polycarp, and the presbyters with him, to the Church of God sojourning at Philippi: Mercy to you, and peace from God Almighty, and from the Lord Jesus Christ, our Saviour, be multiplied.

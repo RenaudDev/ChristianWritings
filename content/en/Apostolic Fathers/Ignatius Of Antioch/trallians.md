@@ -9,7 +9,7 @@ sitemap:
   priority: 0.8
 ---
 ## Listen to the Audio Version
-{{< audio src="https://audio.christianwritings.org/ignatius3.mp3" >}}
+{{< audio src="ignatius3.mp3" title="Epistle to the Trallians by St. Ignatius Of Antioch" >}}
 ## 1. Greeting
 Ignatius, who is also called Theophorus, to the holy Church which is at Tralles, in Asia, beloved of God, the Father of Jesus Christ, elect, and worthy of God, possessing peace through the flesh, and blood, and passion of Jesus Christ, who is our hope, through our rising again to Him, which also I salute in its fullness, and in the apostolic character, and wish abundance of happiness.
 
