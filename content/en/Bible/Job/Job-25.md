@@ -7,20 +7,20 @@ title: Job 25
 
 
 
-###### v1 
+## v1 
 Then Bildad the Shuhite answered, 
 
-###### v2 
+## v2 
 "Dominion and fear are with him. He makes peace in his high places. 
 
-###### v3 
+## v3 
 Can his armies be counted? On whom does his light not arise? 
 
-###### v4 
+## v4 
 How then can man be just with God? Or how can he who is born of a woman be clean? 
 
-###### v5 
+## v5 
 Behold, even the moon has no brightness, and the stars are not pure in his sight; 
 
-###### v6 
+## v6 
 How much less man, who is a worm, the son of man, who is a worm!"
