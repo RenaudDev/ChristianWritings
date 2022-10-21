@@ -1,8 +1,11 @@
 {{- define "content" -}}
-{{ if .Params.bible }}
-{{ end }}
 {{- partial "breadcrumbs.html" . -}}
+{{ if not .Params.bible }}
 <h1>{{ .Title }}</h1>
+{{ else }}
+<h1 data-pagefind-ignore>{{ .Title }}</h1>
+{{ end }}
+
 <div class="highlight" style="font-size: 12px; font-weight: bold;">{{ .Params.timeline }}</div>
 
 {{ if and (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") (.Scratch.Get "params").enable_toc }}
