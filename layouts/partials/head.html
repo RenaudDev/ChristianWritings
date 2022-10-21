@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         {{ if .Params.enableToc }}
-        {{- print .Title " by " -}} {{- print .Params.author -}}
+        {{- print .Title -}}
         {{ else }}
         {{- print .Title " - "  -}} ✟ Christian Writings ✟
         {{- end -}}

@@ -1,5 +1,5 @@
 ---
-title: "The Epistle to the Magnesians"
+title: "St. Ignatius Of Antioch: The Epistle to the Magnesians"
 author: St. Ignatius Of Antioch
 slug: ignatius-of-antioch-magnesians
 layout: single

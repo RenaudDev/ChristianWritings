@@ -1,5 +1,5 @@
 ---
-title: "Epistle to the Philippians"
+title: "St. Polycarp of Smyrna: Epistle to the Philippians"
 slug: polycarp-of-smyrna-philippians
 author: St. Polycarp of Smyrna
 layout: single

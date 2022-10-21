@@ -1,5 +1,5 @@
 ---
-title: "The Epistle to the Philadelphians"
+title: "St. Ignatius Of Antioch: The Epistle to the Philadelphians"
 slug: ignatius-of-antioch-philadelphians
 author: St. Ignatius Of Antioch
 layout: single

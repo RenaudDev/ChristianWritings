@@ -1,5 +1,5 @@
 ---
-title: "The Epistle to the Romans"
+title: "St. Ignatius Of Antioch: The Epistle to the Romans"
 slug: ignatius-of-antioch-romans
 author: St. Ignatius Of Antioch
 layout: single

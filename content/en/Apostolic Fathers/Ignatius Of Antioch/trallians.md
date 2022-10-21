@@ -1,5 +1,5 @@
 ---
-title: "Epistle to the Trallians"
+title: "St. Ignatius Of Antioch: Epistle to the Trallians"
 slug: ignatius-of-antioch-trallians
 author: St. Ignatius Of Antioch
 layout: single

@@ -1,5 +1,5 @@
 ---
-title: "First Letter to the Corinthians - 1 Clement"
+title: "St. Clement Of Rome: Letter to the Corinthians - 1 Clement"
 author: St. Clement Of Rome
 enableToc: true
 slug: letter-to-the-corinthians
