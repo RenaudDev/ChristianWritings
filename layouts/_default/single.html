@@ -1,22 +1,5 @@
 {{- define "content" -}}
 {{ if .Params.bible }}
-<style>
-h2 {
-  position: relative;
-    left: -4%;
-    top: 60px;
-    line-height: 0px;
-    margin-top: -60px;
-    padding: 30px 0;
-    margin-right: 3px;
-    font-weight: 500;
-    font-size: 10px !important;
-    font-weight: bold;
-    font-style: normal;;
-    color: var(--color-link) !important;
-}
-
-</style>
 {{ end }}
 {{- partial "breadcrumbs.html" . -}}
 <h1>{{ .Title }}</h1>
@@ -44,7 +27,12 @@ h2 {
 </div>
 {{ end }}
 
-{{ if .Content }}
+{{ if .Params.bible }}
+<div class="content-margin bible-article">
+  {{- partial "content.html" . -}}
+</div>
+
+{{ else }}
     <div class="content-margin">
       
         {{- partial "content.html" . -}}
