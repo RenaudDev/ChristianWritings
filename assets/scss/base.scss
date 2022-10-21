@@ -161,7 +161,15 @@ audio {
 #content {
   min-height: 90vh !important;
 }
-
+.capitalize {
+  text-transform: capitalize !important;
+}
+.breadcrumbs .capitalize {
+  color: var(--navbar-item-active);
+  border-bottom: 2px solid var(--color-border);
+  line-height: 1.9;
+  font-size: 0.8rem;
+}
 /* Tooltips */
 .hint--html {
   display: inline !important;
