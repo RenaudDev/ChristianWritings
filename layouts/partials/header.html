@@ -1,10 +1,6 @@
 <header>
     <div class="brand">
-        <div id="sidebar_btn">
-            <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
-                {{- partial "svg/menu.html" -}}
-            </svg>
-        </div>
+
 
         <div>
             <a class="homelogo" href="{{ .Site.Home.RelPermalink }}">
@@ -33,7 +29,11 @@
                 </svg>
             </div>
         </a>
-        
+        <div id="sidebar_btn">
+            <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
+                {{- partial "svg/menu.html" -}}
+            </svg>
+        </div>
 
         {{ if .Site.IsMultiLingual }}
             <div id="translation_tool" class="dropdown-wrapper pure-menu pure-menu-horizontal toolbox-btn">
