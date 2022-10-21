@@ -3,7 +3,7 @@ const CACHE_VERSION = 1;
 const BASE_CACHE_FILES = [
     '/style.css',
     '/script.js',
-    '/search.json',
+    '/index.json',
     '/manifest.json',
     '/favicon.png',
 ];
