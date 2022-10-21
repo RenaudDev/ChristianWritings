@@ -39,6 +39,11 @@
                     "@id": "https://www.christianwritings.org/#website",
                     "url": "https://www.christianwritings.org/",
                     "name": "{{ .Site.Title }}",
+                    "potentialAction": {
+                        "@type":"SearchAction",
+                        "target":"https://www.christianwritings.org/?s={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    },
                     "publisher": {
                         "@id": "{{ .Site.BaseURL | absURL }}#organization"
                     }

@@ -1,5 +1,5 @@
 {{ $backlinks := slice }}
-{{ $path_base := .page.File.ContentBaseName }}
+{{ $path_base := .page.File.BaseFileName }}
 {{ $path_base_re := printf `["/(]%s["/)]` $path_base }}
 
 {{ range where site.RegularPages "RelPermalink" "ne" .page.RelPermalink }}
@@ -19,4 +19,5 @@
             </ul>
         </nav>
     </section>
+
 {{ end }}
