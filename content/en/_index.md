@@ -1,11 +1,11 @@
 ---
-title: Early Church Fathers Writings
-description: Discover the early church fathers writings 
+title: Early Church Father's Writings
+description: Discover the Early Church Fathers Writings. Writings interlinked with the bible and audio format included. 
 sitemap:
   changefreq: weekly
   priority: 0.8
 ---
-# Discover The Early Church Fathers Writings
+# Discover The Early Church Father's Writings
 
 {{< pagefind >}}
 

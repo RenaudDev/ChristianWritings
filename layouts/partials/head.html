@@ -9,7 +9,11 @@
         {{- print .Title " - "  -}} ✟ Christian Writings ✟
         {{- end -}}
     </title>
+    {{ if .Params.Description }}
+    <meta name="description" content="{{ .Params.Description }}" />
+    {{ else }}
     <meta name="description" content="{{ .Summary }}" />
+    {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#aa2b37" />
@@ -28,7 +32,7 @@
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:description" content=".description}">
+    <meta property="og:description" content="{{ .Params.Description }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg">
 
