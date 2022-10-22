@@ -176,6 +176,14 @@ audio {
 }
 .list-layout li {
   margin-bottom: 0 !important;
+
+  a {
+    transition: border .3s !important;
+  }
+
+  a:hover {
+    border-bottom-color: var(--color-link) !important;
+  }
 }
 .flex-bible li {
   margin-bottom: 0.5rem !important;

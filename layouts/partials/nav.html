@@ -10,7 +10,7 @@
             {{- else if eq $currentUrl .URL -}}
                 {{ $navbar_decoration = "active" }}
             {{- else if in ($currentUrl|lower) (.URL|lower) -}}
-                {{ $navbar_decoration = "insection" }}
+                {{ $navbar_decoration = "navbar" }}
             {{- end -}}
 
             {{- if .Children -}}

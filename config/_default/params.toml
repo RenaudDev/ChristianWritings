@@ -1,4 +1,4 @@
-navbar_title = '✟ Christian Writings ✟'
+navbar_title = '<span style="color: #aa2b37; font-size: 1.3rem; padding-right: 5px">✟</span>Christian Writings'
 footer = "Copyright © 2021-2022 by Renaud Gagne"
 author = "Christian Writings"
 enable_zooming_js = false
