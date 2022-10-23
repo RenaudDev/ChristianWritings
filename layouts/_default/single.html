@@ -55,7 +55,8 @@
 {{ end }}
 </div>
 
-<div style="text-align: center; font-size: 0.75rem; margin-top: 1rem;">
-  Last updated on {{ .Lastmod.Format "2006-01-02" }} - <a href="https://github.com/RenaudDev/ChristianWritings/tree/main/content/en/{{.File.Path}}" rel="noopener">Edit Source</a>
+<div style="font-size: 0.75rem; margin-top: 1rem;">
+  {{ $filePath := path.Join site.Params.GitHubLink (path.Clean .File.Path) }}
+  Last updated on {{ .Lastmod.Format "2006-01-02" }} - <a href="{{ $filePath }}" rel="nofollow">Edit Source</a>
 </div>
 {{- end -}}

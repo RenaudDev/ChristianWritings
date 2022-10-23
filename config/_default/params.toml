@@ -5,6 +5,7 @@ enable_zooming_js = false
 enable_toc = true
 enable_site_search = false
 enable_math = false
+GitHubLink = "https://github.com/RenaudDev/ChristianWritings/tree/main/content/en/"
 
 # SEO
 enable_open_graph = true

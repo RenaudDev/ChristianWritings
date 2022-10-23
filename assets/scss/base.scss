@@ -111,7 +111,7 @@ details[open] > summary {
 }
 
 .content-margin {
-  @include my-8;
+  @include my-6;
 }
 
 .hidden {
@@ -188,9 +188,7 @@ audio {
 .flex-bible li {
   margin-bottom: 0.5rem !important;
 }
-#content {
-  min-height: 90vh !important;
-}
+
 .capitalize {
   text-transform: capitalize !important;
 }
