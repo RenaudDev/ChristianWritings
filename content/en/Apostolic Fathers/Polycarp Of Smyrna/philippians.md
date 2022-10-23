@@ -1,7 +1,8 @@
 ---
 title: "St. Polycarp of Smyrna: Epistle to the Philippians"
-slug: polycarp-of-smyrna-philippians
+slug: philippians
 author: St. Polycarp of Smyrna
+shortname: Epistle to the Philippians
 layout: single
 weight: 1
 sitemap:
@@ -53,7 +54,7 @@ For I trust that you are well versed in the Sacred Scriptures, and that nothing 
 
 ## 13. Transmission of epistles
 
-Both you and [Ignatius wrote to me](/apostolic-fathers/ignatius-of-antioch/ignatius-of-antioch-polycarp/), that if any one went from this into Syria, he should carry your letter with him; which request I will attend to if I find a fitting opportunity, either personally, or through some other acting for me, that your desire may be fulfilled. The Epistles of Ignatius written by him to us, [and all the rest of his Epistles which we have by us](/apostolic-fathers/ignatius-of-antioch/), we have sent to you, as you requested. They are subjoined to this Epistle, and by them you may be greatly profited; for they treat of faith and patience, and all things that tend to edification in our Lord. Any more certain information you may have obtained respecting both Ignatius himself, and those that were with him, have the goodness to make known to us.
+Both you and [Ignatius wrote to me](/apostolic-fathers/ignatius-of-antioch/polycarp/), that if any one went from this into Syria, he should carry your letter with him; which request I will attend to if I find a fitting opportunity, either personally, or through some other acting for me, that your desire may be fulfilled. The Epistles of Ignatius written by him to us, [and all the rest of his Epistles which we have by us](/apostolic-fathers/ignatius-of-antioch/), we have sent to you, as you requested. They are subjoined to this Epistle, and by them you may be greatly profited; for they treat of faith and patience, and all things that tend to edification in our Lord. Any more certain information you may have obtained respecting both Ignatius himself, and those that were with him, have the goodness to make known to us.
 
 ## 14. Conclusion
 These things I have written to you by Crescens, whom up to the present time I have recommended unto you, and do now recommend. For he has acted blamelessly among us, and I believe also among you. Moreover, you will hold his sister in esteem when she comes to you. Be safe in the Lord Jesus Christ. Grace be with you all. Amen.

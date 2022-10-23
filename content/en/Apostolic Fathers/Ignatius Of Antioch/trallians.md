@@ -1,7 +1,8 @@
 ---
 title: "St. Ignatius Of Antioch: Epistle to the Trallians"
-slug: ignatius-of-antioch-trallians
+slug: trallians
 author: St. Ignatius Of Antioch
+shortname: Epistle to the Trallians
 layout: single
 weight: 3
 sitemap:

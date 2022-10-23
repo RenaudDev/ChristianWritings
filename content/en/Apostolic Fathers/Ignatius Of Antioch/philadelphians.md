@@ -1,6 +1,7 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Philadelphians"
-slug: ignatius-of-antioch-philadelphians
+slug: philadelphians
+shortname: The Epistle to the Philadelphians
 author: St. Ignatius Of Antioch
 layout: single
 weight: 5

@@ -1,8 +1,9 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Ephesians"
 author: St. Ignatius Of Antioch
+shortname: The Epistle to the Ephesians
 enableToc: true
-slug: ignatius-of-antioch-ephesians
+slug: ephesians
 layout: single
 weight: 1
 sitemap:

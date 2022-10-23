@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 enableEmoji = false
 paginate = 5
 summaryLength = 10
-
+enableGitInfo = true
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
@@ -22,3 +22,10 @@ tag = "tags"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[markup]
+    [frontmatter]
+        lastmod = ["lastmod", ":git", "date", "publishDate"]
+        publishDate = ["publishDate", "date"]
+    [markup.goldmark.renderer]
+        unsafe = true

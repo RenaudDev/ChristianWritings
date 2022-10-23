@@ -3,7 +3,18 @@
 {{- if $pages -}}
 
 <ul class="list-layout" data-pagefind-ignore>
+
     {{ range $pages }}
+    {{ if .Params.shortname }}
+    <li class="flex-bible">
+        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal.png" class="bookcase-item-img-light">
+        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal_dark.png" class="bookcase-item-img-dark">
+        <a style="" href="{{ .RelPermalink }}">
+            
+            {{- .Params.shortname -}}
+        </a>
+    </li>
+    {{ else }}
         <li class="flex-bible">
             <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal.png" class="bookcase-item-img-light">
             <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal_dark.png" class="bookcase-item-img-dark">
@@ -12,6 +23,7 @@
                 {{- .Title -}}
             </a>
         </li>
+    {{ end }}
     {{ end }}
 </ul>
 

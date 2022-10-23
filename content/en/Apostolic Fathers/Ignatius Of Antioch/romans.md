@@ -1,7 +1,8 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Romans"
-slug: ignatius-of-antioch-romans
+slug: romans
 author: St. Ignatius Of Antioch
+shortname: The Epistle to the Romans
 layout: single
 weight: 4
 sitemap:
