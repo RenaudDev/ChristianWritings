@@ -3,7 +3,6 @@ title: Privacy Policy
 toc: false
 ---
 
-## PRIVACY POLICY
 
 Christian Writings ("we", "us" or "our") operates the website (hereinafter referred to as the "service").
 
