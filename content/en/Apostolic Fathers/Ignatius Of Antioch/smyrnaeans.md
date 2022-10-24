@@ -10,7 +10,7 @@ sitemap:
   priority: 0.8
 ---
 ## Listen to the Audio Version
-{{< audio src="ignatius_6.mp3" title="Epistle to the Trallians by St. Ignatius Of Antioch" >}}
+{{< audio src="ignatius_6.mp3" title="Epistle to the Smyrnaeans by St. Ignatius Of Antioch" >}}
 
 ## Greeting
 Ignatius, who is also called Theophorus, to the Church of God the Father, and of the beloved Jesus Christ, which has through mercy obtained every kind of gift, which is filled with faith and love, and is deficient in no gift, most worthy of God, and adorned with holiness: the Church which is at Smyrna, in Asia, wishes abundance of happiness, through the immaculate Spirit and word of God.
