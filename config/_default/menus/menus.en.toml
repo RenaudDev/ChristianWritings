@@ -14,5 +14,11 @@
   identifier = "Apostolic Fathers"
   name = "Apostolic Fathers"
   url = "/apostolic-fathers/"
-  weight = 2
+  weight = 3
+
+[[navbar]]
+  identifier = "Support Us"
+  name = "Support Us"
+  url = "https://www.buymeacoffee.com/christianwr/"
+  weight = 4
   
