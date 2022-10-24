@@ -39,8 +39,18 @@
 {{ end }}
 
 
+
+
+<div style="font-size: 0.75rem; margin-top: 1rem;">
+  {{ $filePath := (path.Clean .File.Path) }}
+  Last updated on {{ .Lastmod.Format "2006-01-02" }} - <a href="https://github.com/RenaudDev/ChristianWritings/tree/main/content/en/{{ $filePath }}" rel="nofollow">Edit Source</a>
+</div>
+
 {{ if not .Params.bible }}
 <span></span>
+<div style="margin: 20px 0;">
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="christianwr" data-color="#aa2b37" data-emoji=""  data-font="Cookie" data-text="Support Us" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFFFFF" ></script>
+</div>
 {{ else }}
 
 <div class="content-margin" data-pagefind-ignore>
@@ -55,8 +65,5 @@
 {{ end }}
 </div>
 
-<div style="font-size: 0.75rem; margin-top: 1rem;">
-  {{ $filePath := (path.Clean .File.Path) }}
-  Last updated on {{ .Lastmod.Format "2006-01-02" }} - <a href="https://github.com/RenaudDev/ChristianWritings/tree/main/content/en/{{ $filePath }}" rel="nofollow">Edit Source</a>
-</div>
+{{- partial "backlinks.html" . -}}
 {{- end -}}

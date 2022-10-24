@@ -1,22 +1,25 @@
+{{ $re := $.File.BaseFileName }}
 {{ $backlinks := slice }}
-{{ $path_base := .page.File.ContentBaseName }}
-{{ $path_base_re := printf `["/(]%s["/)]` $path_base }}
-
 {{ range .Site.AllPages }}
-    {{ if (findRE $path_base_re .RawContent 1) }}
-        {{ $backlinks = $backlinks | append . }}
-    {{ end }}
+   {{ if and (findRE $re .RawContent) (not (eq $re .File.BaseFileName)) }}
+      {{ $backlinks = $backlinks | append . }}
+   {{ end }}
 {{ end }}
 
-{{ with $backlinks }}
-    <section class="backlinks">
-        {{ printf "%s" ($.heading | default "<h2>Backlinks</h2>") | safeHTML }}
-        <nav>
-            <ul>
-                {{ range . }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-    </section>
+<hr>
+{{ if gt (len $backlinks) 0 }}
+  <div class="bl-section">
+    <h4>Links to this note</h4>
+    <div class="backlinks">
+      <ul>
+       {{ range $backlinks }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+       {{ end }}
+     </ul>
+    </div>
+  </div>
+{{ else  }}
+  <div class="bl-section">
+    <h4>No notes link to this note</h4>
+  </div>
 {{ end }}
