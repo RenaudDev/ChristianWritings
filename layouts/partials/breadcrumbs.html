@@ -1,13 +1,13 @@
 <div class="content-margin" data-pagefind-ignore>
 <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumbs list-layout flex-row">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a class="capitalize" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/" href="/">Home</a></li>
+        <a class="capitalize" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="/" href="/"><span itemprop="name">Home</span></a></li>
     {{ $rellink := "" }}
     {{ range (split .RelPermalink "/") }}
       {{ if gt (len . ) 0 -}}
         {{ $rellink = printf "%s/%s" $rellink . }}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a class="capitalize" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="{{ $rellink }}" href="{{ $rellink }}">{{ humanize . }}</a></li>
+            <a class="capitalize" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="{{ $rellink }}" href="{{ $rellink }}"><span itemprop="name">{{ humanize . }}</span></a></li>
       {{ end }}
     {{ end }}
   </ol>
