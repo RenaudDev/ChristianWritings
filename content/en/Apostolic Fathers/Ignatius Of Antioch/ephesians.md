@@ -7,7 +7,6 @@ slug: ephesians
 layout: single
 weight: 1
 sitemap:
-  changefreq: weekly
   priority: 0.8
 ---
 
@@ -104,6 +103,6 @@ My soul be for yours and theirs whom, for the honour of God, you have sent to Sm
 
 ## Sources
 
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by Kevin Knight.
 
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

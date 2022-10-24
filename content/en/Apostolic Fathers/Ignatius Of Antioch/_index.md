@@ -7,7 +7,6 @@ tags:
 timeline: AD 35 - 108
 weight: 2
 sitemap:
-  changefreq: monthly
   priority: 0.8
 ---
 # St. Ignatius of Antioch

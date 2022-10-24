@@ -6,7 +6,6 @@ shortname: The Epistle to the Romans
 layout: single
 weight: 4
 sitemap:
-  changefreq: weekly
   priority: 0.8
 ---
 
@@ -51,6 +50,6 @@ Remember in your prayers the Church in Syria, which now has God for its shepherd
 Now I write these things to you from Smyrna by the Ephesians, who are deservedly most happy. There is also with me, along with many others, Crocus, one dearly beloved by me. As to those who have gone before me from Syria to Rome for the glory of God, I believe that you are acquainted with them; to whom, then, make known that I am at hand. For they are all worthy, both of God and of you; and it is becoming that you should refresh them in all things. I have written these things unto you, on the day before the ninth of the Kalends of September (that is, on the twenty-third day of August). Fare well to the end, in the patience of Jesus Christ. Amen.
 
 ## Source
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by New Advent by Kevin Knight.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by Kevin Knight
 
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

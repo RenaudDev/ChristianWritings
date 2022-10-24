@@ -6,7 +6,6 @@ shortname: Epistle to the Trallians
 layout: single
 weight: 3
 sitemap:
-  changefreq: weekly
   priority: 0.8
 ---
 ## Listen to the Audio Version
@@ -57,5 +56,5 @@ I salute you from Smyrna, together with the Churches of God which are with me, w
 The love of the Smyrnæans and Ephesians salutes you. Remember in your prayers the Church which is in Syria, from which also I am not worthy to receive my appellation, being the last of them. Fare well in Jesus Christ, while you continue subject to the bishop, as to the command of God, and in like manner to the presbytery. And, every man, love one another with an undivided heart. Let my spirit be sanctified by yours, not only now, but also when I shall attain to God. For I am as yet exposed to danger. But the Father is faithful in Jesus Christ to fulfil both mine and your petitions: in whom may you be found unblameable.
 
 ## Source
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by New Advent by Kevin Knight.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by Kevin Knight
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

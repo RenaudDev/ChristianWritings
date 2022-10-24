@@ -4,9 +4,8 @@ slug: polycarp
 shortname: The Epistle to Polycarp
 author: St. Ignatius Of Antioch
 layout: single
-weight: 6
+weight: 7
 sitemap:
-  changefreq: weekly
   priority: 0.8
 ---
 ## Listen to the Audio Version
@@ -41,5 +40,5 @@ Seeing that the Church which is at Antioch in Syria is, as report has informed m
 Inasmuch as I have not been able to write to all the Churches, because I must suddenly sail from Troas to Neapolis, as the will of the emperor enjoins, I beg that you, as being acquainted with the purpose of God, [will write to the adjacent Churches](/apostolic-fathers/polycarp-of-smyrna/philippians/), that they also may act in like manner, such as are able to do so sending messengers, and the others transmitting letters through those persons who are sent by you, that you may be glorified by a work which shall be remembered for ever, as indeed you are worthy to be. I salute all by name, and in particular the wife of Epitropus, with all her house and children. I salute Attalus, my beloved. I salute him who shall be deemed worthy to go from you into Syria. Grace shall be with him for ever, and with Polycarp that sends him. I pray for your happiness for ever in our God, Jesus Christ, by whom continue in the unity and under the protection of God. I salute Alce, my dearly beloved. Fare well in the Lord.
 
 ## Source
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for New Advent by Kevin Knight
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by Kevin Knight
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius

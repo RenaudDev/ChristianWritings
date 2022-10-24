@@ -6,7 +6,6 @@ author: St. Ignatius Of Antioch
 layout: single
 weight: 5
 sitemap:
-  changefreq: weekly
   priority: 0.8
 ---
 

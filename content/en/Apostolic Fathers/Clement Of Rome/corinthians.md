@@ -1,5 +1,6 @@
 ---
 title: "St. Clement Of Rome: Letter to the Corinthians - 1 Clement"
+draft: true
 author: St. Clement Of Rome
 shortname: 1 Clement - Letter to the Corinthians
 enableToc: true
