@@ -24,9 +24,14 @@
     {{ with (.Scratch.Get "params").author }}
     <meta name="author" content="{{ . }}" />
     {{ end }}
+
+{{ if .Params.bible }}
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+{{ else }}
     <meta name="robots" content="index">
     <meta name="googlebot" content="index">
-    
+{{ end }}  
     {{ if .IsHome }}
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
