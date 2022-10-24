@@ -236,6 +236,6 @@ May God, who sees all things, and who is the Ruler of all spirits and the Lord o
 Send back speedily to us in peace and with joy these our messengers to you: Claudius Ephebus and Valerius Bito, with Fortunatus; that they may the sooner announce to us the peace and harmony we so earnestly desire and long for among you, and that we may the more quickly rejoice over the good order re-established among you. The grace of our Lord Jesus Christ be with you, and with all everywhere that are the called of God through Him, by whom be to Him glory, honour, power, majesty, and eternal dominion, from everlasting to everlasting. Amen.
 
 ## Sources
-- Translated by John Keith. From Ante-Nicene Fathers, Vol. 9. Edited by Allan Menzies. (Buffalo, NY: Christian Literature Publishing Co., 1896.) Revised and edited for [New Advent](http://www.newadvent.org/fathers/1010.htm) by Kevin Knight. 
+- Translated by John Keith. From Ante-Nicene Fathers, Vol. 9. Edited by Allan Menzies. (Buffalo, NY: Christian Literature Publishing Co., 1896.) Revised and edited by Kevin Knight. 
 
 - [Librevox recording](https://librivox.org/first-epistle-of-clement-to-the-corinthians/) of The First Epistle of Clement to the Corinthians

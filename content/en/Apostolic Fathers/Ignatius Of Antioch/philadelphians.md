@@ -55,5 +55,5 @@ Now, as to Philo the deacon, of Cilicia, a man of reputation, who still minister
 
 
 ## Sources
-- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited for [New Advent](http://www.newadvent.org/) by Kevin Knight.
+- Translated by Alexander Roberts and James Donaldson. From Ante-Nicene Fathers, Vol. 1. Edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe. (Buffalo, NY: Christian Literature Publishing Co., 1885.) Revised and edited by Kevin Knight.
 - [Librevox recording](https://librivox.org/epistles-of-ignatius-by-st-ignatius-of-antioch/) of the Epistles of Ignatius
