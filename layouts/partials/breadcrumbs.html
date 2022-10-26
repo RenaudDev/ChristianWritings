@@ -1,6 +1,7 @@
 {{ $siteUrl := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "sitePath" .Site.BaseURL }}
 
+
 {{ $.Scratch.Add "siteBreadcrumbs" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
 {{ range $index, $element := split $siteUrl "/" }}
 {{ $.Scratch.Add "sitePath" $element }}
@@ -13,7 +14,7 @@
 <nav class="content-margin" data-pagefind-ignore>
   <ol class="breadcrumbs list-layout flex-row">
       {{ range $.Scratch.Get "siteBreadcrumbs" }}
-      <li><a class="capitalize" href="{{ .url }}"> {{ .name }}</a></li>
+      <li><a class="capitalize" href="{{ .url }}">{{ .name }} }}</a></li>
       {{ end }}
   </ol>
 </nav>
