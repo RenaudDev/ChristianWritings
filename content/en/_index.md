@@ -7,6 +7,8 @@ sitemap:
 ---
 # Discover The Early Church Father's Writings
 
+<img width="100%" alt="Caravaggio, Public domain, via Wikimedia Commons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Saint_Jerome_Writing-Caravaggio_%281605-6%29.jpg/1024px-Saint_Jerome_Writing-Caravaggio_%281605-6%29.jpg"><p class="wikicommon" ><a href="https://commons.wikimedia.org/wiki/File:Saint_Jerome_Writing-Caravaggio_(1605-6).jpg">Caravaggio</a> via Wikimedia Commons</p>
+
 {{< pagefind >}}
 
 Are you looking to learn more and read about the **early church fathers writings**?  We believe that studying the [the writings of the early church](/apostolic-fathers/) is essential for understanding the development of Christianity and the Church. Their writings are a treasure trove of wisdom and insight, and we are committed to making them accessible to as many people as possible.

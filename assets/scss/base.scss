@@ -105,6 +105,10 @@ mark {
 details > summary {
   cursor: zoom-in;
 }
+.wikicommon {
+  font-size: 11px !important;
+  text-align: right !important;
+}
 
 details[open] > summary {
   cursor: zoom-out;
