@@ -1,7 +1,7 @@
 ---
 title: "St. Ignatius Of Antioch: Epistle to Polycarp"
 slug: polycarp
-shortname: The Epistle to Polycarp
+shortname: Epistle to Polycarp
 author: St. Ignatius Of Antioch
 layout: single
 weight: 7
