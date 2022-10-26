@@ -16,6 +16,8 @@ The letters of Ignatius provide a valuable look into the early days of Christian
 
 {{< youtube wdeizCtkxZo >}}
 
+## Benefits of reading the writings of St. Ignatius
+
 There are many benefits to reading about the life of martyrs like Saint Ignatius. They remind us that martyrdom is the supreme witness to the truth of the faith. It is an act of witness that can only be carried out by someone wholly committed to the Christian faith. A martyr is someone willing to die for their faith, and their death is a testimony to the truth of the gospel. In his letter to the Romans, that Ignatius points out being martyred for Christ is not about dying as a testimony to the truth but as the way to eternal life.
 
 > Pardon me, brethren: do not hinder me from living, do not wish to keep me in a state of death; and while I desire to belong to God, do not give me over to the world. - [Epistle To The Romans](/apostolic-fathers/ignatius-of-antioch/romans/#6-by-death-i-shall-attain-true-life)
