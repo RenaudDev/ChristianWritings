@@ -18,14 +18,14 @@ gulp.task("generate-service-worker", () => {
             "**/*.{css,js,eot,ttf,woff,woff2,otf}"
         ],
         swDest: "./public/service-worker.js",
-
+        ignoreURLParametersMatching: [/./],
         clientsClaim: true,
         skipWaiting: true,
         offlineGoogleAnalytics: true,
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
             {
-                urlPattern: /\,(?:html)$/,
+                urlPattern: /(?:\/)$/,
                 handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "html",
