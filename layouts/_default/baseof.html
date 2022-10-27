@@ -36,7 +36,14 @@
         </main>
         <script>
                 if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js');
+                    window.addEventListener("load", () => {
+                        navigator.serviceWorker.register('/service-worker.js').then(swReg => {
+                            console.log("Worker Registered!");
+                        }).catch(error => {
+                            console.log("There was an error", error);
+                        });
+
+                    });
             }
         </script>
         <!-- Meta Pixel Code -->
