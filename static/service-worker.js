@@ -1,15 +1,2 @@
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
-);
-workbox.routing.registerRoute(
-  /\.(?:js|css)$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    "cacheName": "assets"
-  })
-);
-workbox.routing.registerRoute(
-  /\.(?:webp|png|svg|ico)$/,
-  new workbox.strategies.CacheFirst({
-    "cacheName": "images"
-  })
-);
+if(!self.define){let e,t={};const n=(n,s)=>(n=new URL(n+".js",s).href,t[n]||new Promise((t=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=t,document.head.appendChild(e)}else e=n,importScripts(n),t()})).then((()=>{let e=t[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e})));self.define=(s,o)=>{const r=e||("document"in self?document.currentScript.src:"")||location.href;if(t[r])return;let i={};const c=e=>n(e,r),l={module:{uri:r},exports:i,require:c};t[r]=Promise.all(s.map((e=>l[e]||c(e)))).then((e=>(o(...e),i)))}}define(["./workbox-936d7873"],(function(e){"use strict";e.setCacheNameDetails({prefix:"PWA"}),self.addEventListener("message",(e=>{e.data&&"SKIP_WAITING"===e.data.type&&self.skipWaiting()})),e.registerRoute(/\,(?:html|xml)$/,new e.StaleWhileRevalidate({cacheName:"markup",plugins:[new e.ExpirationPlugin({maxAgeSeconds:86400})]}),"GET")}));
+//# sourceMappingURL=service-worker.js.map
