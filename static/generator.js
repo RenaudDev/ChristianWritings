@@ -8,8 +8,7 @@ workbox.generateSW( {
     ],
     globIgnores: [
         "**/generator.js",
-        "**/service-worker.js",
-        "node_modules/**/*"
+        "**/service-worker.js"
     ],
     swDest: "./service-worker.js",
     runtimeCaching: [
