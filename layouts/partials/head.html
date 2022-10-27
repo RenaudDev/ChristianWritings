@@ -41,7 +41,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{ .Params.Description }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}img/OGChristianWritings.jpg">
 
     <script type="application/ld+json">
         {
@@ -67,7 +67,7 @@
                     "url": "{{ .Permalink }}",
                     "name": "{{ .Title }} - {{ .Site.Title }}",
                               "primaryImageOfPage": {
-                        "@id": "{{ .Site.BaseURL | absURL }}OGChristianWritings.jpg"
+                        "@id": "{{ .Site.BaseURL | absURL }}img/OGChristianWritings.jpg"
                     },
                     "inLanguage": "en-US"
                 }
@@ -86,7 +86,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="book">
-    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGBible.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}img/OGBible.jpg">
     {{ end }}
 
     {{ if .Params.timeline }}
@@ -95,7 +95,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="books.author">
-    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}img/OGApostolic.jpg">
     {{ end }}
 
     {{ if .Params.enableToc }}
@@ -104,7 +104,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{ .Summary }}">
     <meta property="og:type" content="books">
-    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}OGApostolic.jpg">
+    <meta property="og:image" content="{{ .Site.BaseURL | absURL }}img/OGApostolic.jpg">
 
     <script type="application/ld+json">
         {
@@ -138,7 +138,7 @@
                     "url": "{{ .Permalink }}",
                     "name": "{{ .Title }} by {{ .Params.author }}",
                               "primaryImageOfPage": {
-                        "@id": "{{ .Site.BaseURL | absURL }}OGApostolic.jpg"
+                        "@id": "{{ .Site.BaseURL | absURL }}img/OGApostolic.jpg"
                     },
                     "inLanguage": "en-US"
                 }

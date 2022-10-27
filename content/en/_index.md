@@ -7,7 +7,7 @@ sitemap:
 ---
 # Discover The Early Church Father's Writings
 
-<img width="100%" height="400px" style="object-fit: cover; margin-top: 1.5rem;" alt="Caravaggio, Public domain, via Wikimedia Commons" src="saint-jerome.jpg">
+<img width="100%" height="400px" style="object-fit: cover; margin-top: 1.5rem;" alt="Caravaggio, Public domain, via Wikimedia Commons" src="img/saint-jerome.jpg">
 <figcaption class="wikicommon"><a href="https://commons.wikimedia.org/wiki/File:Saint_Jerome_Writing-Caravaggio_(1605-6).jpg">Caravaggio</a> via Wikimedia Commons</figcaption>
 
 

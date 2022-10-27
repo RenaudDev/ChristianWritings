@@ -7,8 +7,8 @@
     {{ range $pages }}
     {{ if .Params.shortname }}
     <li class="flex-bible">
-        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal.png" class="bookcase-item-img-light">
-        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal_dark.png" class="bookcase-item-img-dark">
+        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/img/journal.png" class="bookcase-item-img-light">
+        <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/img/journal_dark.png" class="bookcase-item-img-dark">
         <a style="" href="{{ .RelPermalink }}">
             
             {{- .Params.shortname -}}
@@ -16,8 +16,8 @@
     </li>
     {{ else }}
         <li class="flex-bible">
-            <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal.png" class="bookcase-item-img-light">
-            <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/journal_dark.png" class="bookcase-item-img-dark">
+            <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/img/journal.png" class="bookcase-item-img-light">
+            <img style="height: 25px; width:25px; margin-bottom: -8px;" src="/img/journal_dark.png" class="bookcase-item-img-dark">
             <a style="" href="{{ .RelPermalink }}">
                 
                 {{- .Title -}}
