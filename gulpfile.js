@@ -29,7 +29,7 @@ gulp.task("generate-service-worker", () => {
         runtimeCaching: [
             {
                 urlPattern: /(?:\/)$/,
-                handler: "StaleWhileRevalidate",
+                handler: "NetworkFirst",
                 options: {
                     cacheName: "html",
                     expiration: {
@@ -39,7 +39,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
-                handler: "CacheFirst",
+                handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "images",
                     expiration: {
@@ -50,7 +50,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /\.(?:mp3|wav|m4a)$/,
-                handler: "CacheFirst",
+                handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "audio",
                     expiration: {
@@ -61,7 +61,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /\.(?:m4v|mpg|avi)$/,
-                handler: "CacheFirst",
+                handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "videos",
                     expiration: {
