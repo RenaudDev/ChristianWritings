@@ -15,7 +15,7 @@ sitemap:
 
 Welcome to ChristianWritings.com, the online home of the most accessible collection of **early church father's writings** available anywhere!
 
-One of the ways that ChristianWritings.com makes the early church father's writings more accessible is by providing links to the Bible passages referenced in the letters. This allows users to read and study the Scriptures in context. ChristianWritings.com offers audio recordings of the early church fathers' writings so you can hear them read aloud. This helps users better to understand the context and meaning of the texts.
+One of the ways that ChristianWritings.com makes the early church father's writings more accessible is by providing links to the Bible passages referenced in the letters. This allows users to read and study the Scriptures in context how of the Church Fathers understood them. ChristianWritings.com also provides audio recordings alongside the text so you can hear them read aloud. This text is easy to read and advertising free to give you an unparallel experience of reading the text online.
 
 ## Why Read The Church Fathers?
 

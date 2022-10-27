@@ -14,7 +14,7 @@
 <nav class="content-margin" data-pagefind-ignore>
   <ol class="breadcrumbs list-layout flex-row">
       {{ range $.Scratch.Get "siteBreadcrumbs" }}
-      <li><a class="capitalize" href="{{ .url }}">{{ .name }}</a></li>
+      <li><a class="capitalize" style="padding-left: 2px;" href="{{ .url }}">{{ humanize .name }}</a></li>
       {{ end }}
   </ol>
 </nav>
@@ -40,7 +40,7 @@
         "position": {{ .position }},
         "item": {
           "@id": "{{ .url }}",
-          "name": "{{ .name }}"
+          "name": "{{ humanize .name }}"
         }
     }{{ end }}]
 }
