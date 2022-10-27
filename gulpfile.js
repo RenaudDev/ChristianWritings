@@ -34,7 +34,7 @@ gulp.task("generate-service-worker", () => {
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
             {
-                urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,,
+                urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
                 handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: 'core',
@@ -45,7 +45,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /(?:\/)$/,
-                handler: "NetworkFirst",
+                handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "html",
                     expiration: {
@@ -61,7 +61,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
-                handler: "StaleWhileRevalidate",
+                handler: "CacheFirst",
                 options: {
                     cacheName: "images",
                     expiration: {
