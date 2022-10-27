@@ -2,5 +2,8 @@
   "dependencies": {
     "html-hint": "^0.2.4",
     "pagefind": "^0.6.1"
+  },
+  "devDependencies": {
+    "workbox-build": "^6.5.4"
   }
 }
