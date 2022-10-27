@@ -39,5 +39,8 @@
   "categories": [
     "books",
     "education"
-  ]
+  ],
+  "lang": "en",
+  "iarc_rating_id": "G",
+  "prefer_related_applications": false
 }
