@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const workbox = require("workbox-build");
+const workboxsw = require("workbox-sw");
 
 gulp.task("clean", function () {
     return gulp.src("public", { read: false, allowEmpty: true })
