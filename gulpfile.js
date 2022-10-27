@@ -18,6 +18,9 @@ gulp.task("generate-service-worker", () => {
             "**/*.{css,js,eot,ttf,woff,woff2,otf}"
         ],
         swDest: "./public/service-worker.js",
+        modifyURLPrefix: {
+            "": "/"
+        },
         ignoreURLParametersMatching: [/./],
         clientsClaim: true,
         skipWaiting: true,
