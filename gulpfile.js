@@ -3,6 +3,8 @@ const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const workbox = require("workbox-build");
 
+const genRanHex = (size = 24) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+
 gulp.task("clean", function () {
     return gulp.src("public", { read: false, allowEmpty: true })
     .pipe(clean());
