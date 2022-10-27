@@ -54,3 +54,8 @@ window.addEventListener("DOMContentLoaded", function () {
         dark_mode_btn.classList.remove('hidden');
     });
 });
+if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+} else {
+    document.documentElement.setAttribute("data-theme", "light");
+}
