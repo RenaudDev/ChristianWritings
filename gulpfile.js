@@ -35,6 +35,12 @@ gulp.task("generate-service-worker", () => {
                     expiration: {
                         maxAgeSeconds: 60 * 60 * 24 * 7,
                     },
+                    backgroundSync: {
+                        name: 'my-queue-name',
+                        options: {
+                          maxRetentionTime: 60 * 60,
+                        },
+                    },
                 },
             },
             {
