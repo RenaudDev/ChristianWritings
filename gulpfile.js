@@ -25,8 +25,24 @@ gulp.task("generate-service-worker", () => {
         clientsClaim: true,
         skipWaiting: true,
         offlineGoogleAnalytics: true,
+        additionalManifestEntries: [
+            {
+                "url": "/fallback",
+                "revision": genRanHex()
+            }
+        ],
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
+            {
+                urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,,
+                handler: "StaleWhileRevalidate",
+                options: {
+                    cacheName: 'core',
+                    precacheFallback: {
+                        fallbackURL: '/fallback' // THIS IS THE KEY
+                    },
+                },
+            },
             {
                 urlPattern: /(?:\/)$/,
                 handler: "NetworkFirst",
@@ -51,6 +67,12 @@ gulp.task("generate-service-worker", () => {
                     expiration: {
                         maxEntries: 1000,
                         maxAgeSeconds: 60 * 60 * 24 * 365,
+                    },
+                    backgroundSync: {
+                        name: 'my-queue-name',
+                        options: {
+                          maxRetentionTime: 60 * 60,
+                        },
                     },
                 },
             },
