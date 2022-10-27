@@ -8,7 +8,7 @@ gulp.task("clean", function () {
     .pipe(clean());
 });
 gulp.task("pagefind", shell.task(["npx pagefind --source public"]));
-gulp.task("hugo-build", shell.task(["hugo"]));
+gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
@@ -25,7 +25,7 @@ gulp.task("generate-service-worker", () => {
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
             {
-                urlPattern: /(?:\/)$/,
+                urlPattern: /\,(?:html)$/,
                 handler: "StaleWhileRevalidate",
                 options: {
                     cacheName: "html",
