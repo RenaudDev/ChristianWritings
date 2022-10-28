@@ -1,35 +1,37 @@
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
-);
-import { registerRoute, Route } from 'workbox-routing';
-import { CacheFirst } from 'workbox-strategies';
-import { ExpirationPlugin } from 'workbox-expiration';
+import {warmStrategyCache} from 'workbox-recipes';
+import {setDefaultHandler, setCatchHandler} from 'workbox-routing';
+import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
 
-// Evict image cache entries older thirty days:
-const imageRoute = new Route(({ request }) => {
-  return request.destination === 'image';
-}, new CacheFirst({
-  cacheName: 'images',
-  plugins: [
-    new ExpirationPlugin({
-      maxAgeSeconds: 60 * 60 * 24 * 30,
-    })
-  ]
-}));
+// Fallback assets to cache
+const FALLBACK_HTML_URL = '/offline.html';
+const FALLBACK_IMAGE_URL = '/offline.png';
+const FALLBACK_STRATEGY = new CacheFirst();
 
-// Evict the least-used script cache entries when
-// the cache has more than 50 entries:
-const scriptsRoute = new Route(({ request }) => {
-  return request.destination === 'script';
-}, new CacheFirst({
-  cacheName: 'scripts',
-  plugins: [
-    new ExpirationPlugin({
-      maxEntries: 50,
-    })
-  ]
-}));
+// Warm the runtime cache with a list of asset URLs
+warmStrategyCache({
+  urls: [FALLBACK_HTML_URL, FALLBACK_IMAGE_URL],
+  strategy: FALLBACK_STRATEGY,
+});
 
-// Register routes
-registerRoute(imageRoute);
-registerRoute(scriptsRoute);
+// Use a stale-while-revalidate strategy to handle requests by default.
+setDefaultHandler(new StaleWhileRevalidate());
+
+// This "catch" handler is triggered when any of the other routes fail to
+// generate a response.
+setCatchHandler(async ({request}) => {
+  // The warmStrategyCache recipe is used to add the fallback assets ahead of
+  // time to the runtime cache, and are served in the event of an error below.
+  // Use `event`, `request`, and `url` to figure out how to respond, or
+  // use request.destination to match requests for specific resource types.
+  switch (request.destination) {
+    case 'document':
+      return FALLBACK_STRATEGY.handle({event, request: FALLBACK_HTML_URL});
+
+    case 'image':
+      return FALLBACK_STRATEGY.handle({event, request: FALLBACK_IMAGE_URL});
+
+    default:
+      // If we don't have a fallback, return an error response.
+      return Response.error();
+  }
+});
