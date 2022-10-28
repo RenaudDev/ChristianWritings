@@ -7,14 +7,8 @@ importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
 );
 workbox.routing.registerRoute(
-  /\.(?:webp|png|svg|ico)$/,
-  new workbox.strategies.CacheFirst({
-    "cacheName": "images",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 1000,
-        maxAgeSeconds: 31536000
-      })
-    ]
+  /\.(?:js|css)$/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'static-resources',
   })
 );
