@@ -27,9 +27,10 @@ gulp.task("generate-service-worker", () => {
         clientsClaim: true,
         skipWaiting: true,
         offlineGoogleAnalytics: true,
+        navigationPreload: true,
         additionalManifestEntries: [
             {
-                "url": "/fallback",
+                "url": "/fallback/index.html",
                 "revision": genRanHex()
             }
         ],
