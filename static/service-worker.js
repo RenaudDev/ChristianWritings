@@ -1,14 +1,32 @@
+import { registerRoute, Route } from 'workbox-routing';
+import { CacheFirst } from 'workbox-strategies';
+import { ExpirationPlugin } from 'workbox-expiration';
 
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+// Evict image cache entries older thirty days:
+const imageRoute = new Route(({ request }) => {
+  return request.destination === 'image';
+}, new CacheFirst({
+  cacheName: 'images',
+  plugins: [
+    new ExpirationPlugin({
+      maxAgeSeconds: 60 * 60 * 24 * 30,
+    })
+  ]
+}));
 
+// Evict the least-used script cache entries when
+// the cache has more than 50 entries:
+const scriptsRoute = new Route(({ request }) => {
+  return request.destination === 'script';
+}, new CacheFirst({
+  cacheName: 'scripts',
+  plugins: [
+    new ExpirationPlugin({
+      maxEntries: 50,
+    })
+  ]
+}));
 
-
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
-);
-workbox.routing.registerRoute(
-  /\.(?:js|css)$/,
-  workbox.strategies.staleWhileRevalidate({
-    cacheName: 'static-resources',
-  })
-);
+// Register routes
+registerRoute(imageRoute);
+registerRoute(scriptsRoute);
