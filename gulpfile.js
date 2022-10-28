@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const workbox = require("workbox-build");
+const precacheAndRoute = require('workbox-precaching');
 
 const genRanHex = (size = 24) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
 
@@ -36,8 +37,8 @@ gulp.task("generate-service-worker", () => {
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
             {
-                urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
-                handler: "StaleWhileRevalidate",
+                urlPattern: ({request}) => request.mode === 'navigate',
+                handler: "NetworkOnline",
                 options: {
                     cacheName: 'core',
                     precacheFallback: {
