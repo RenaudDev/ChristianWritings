@@ -11,4 +11,4 @@ gulp.task("pagefind", shell.task(["npx pagefind --source public"]));
 
 gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
-gulp.task("build", gulp.series("clean", "hugo-build", "pagefind" ));
+gulp.task("build", gulp.series("hugo-build", "pagefind" ));

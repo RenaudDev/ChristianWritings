@@ -5,8 +5,34 @@ const CACHE = "pwabuilder-offline-page";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "/offline.html";
+
+workbox.routing.registerRoute(
+  /\.(?:css|js)$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    "cacheName": "assets",
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 1000,
+        maxAgeSeconds: 604800
+      })
+    ]
+  })
+);
+
+workbox.routing.registerRoute(
+  /\.(?:webp|png|svg|ico)$/,
+  new workbox.strategies.CacheFirst({
+    "cacheName": "images",
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 1000,
+        maxAgeSeconds: 31536000
+      })
+    ]
+  })
+);
+
+const offlineFallbackPage = "offline.html";
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -53,28 +79,3 @@ self.addEventListener('fetch', (event) => {
     })());
   }
 });
-workbox.routing.registerRoute(
-  /\.(?:css|js)$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    "cacheName": "assets",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 1000,
-        maxAgeSeconds: 604800
-      })
-    ]
-  })
-);
-
-workbox.routing.registerRoute(
-  /\.(?:webp|png|svg|ico)$/,
-  new workbox.strategies.CacheFirst({
-    "cacheName": "images",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 1000,
-        maxAgeSeconds: 31536000
-      })
-    ]
-  })
-);
