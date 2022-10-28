@@ -8,25 +8,19 @@ importScripts(
 );
 workbox.routing.registerRoute(
   /\.(?:js|css)$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    "cacheName": "assets",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 1000,
-        maxAgeSeconds: 604800
-      })
-    ]
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'static-resources',
   })
 );
 workbox.routing.registerRoute(
-  /\.(?:webp|png|svg|ico)$/,
-  new workbox.strategies.CacheFirst({
-    "cacheName": "images",
+  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  workbox.strategies.cacheFirst({
+    cacheName: 'images',
     plugins: [
       new workbox.expiration.Plugin({
-        maxEntries: 1000,
-        maxAgeSeconds: 31536000
-      })
-    ]
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+      }),
+    ],
   })
 );
