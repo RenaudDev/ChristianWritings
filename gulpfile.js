@@ -37,7 +37,7 @@ gulp.task("generate-service-worker", () => {
         runtimeCaching: [
             {
                 urlPattern: ({request}) => request.mode === 'navigate',
-                handler: "NetworkOnline",
+                handler: "NetworkOnly",
                 options: {
                     cacheName: 'core',
                     precacheFallback: {
