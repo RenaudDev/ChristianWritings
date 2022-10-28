@@ -35,7 +35,7 @@ gulp.task("generate-service-worker", () => {
         ],
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
-            urlPattern: ({request}) => request.mode === 'navigate',
+            urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
             handler: 'NetworkOnly',
             options: {
               precacheFallback: {
