@@ -14,24 +14,23 @@ gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
-        cacheId: "PWA",
+        cacheId: "thepolyglotdeveloper",
         globDirectory: "./public",
         globPatterns: [
             "**/*.{css,js,eot,ttf,woff,woff2,otf}"
         ],
-        swDest: "./public/service-worker.js",
+        swDest: "./public/sw.js",
         modifyURLPrefix: {
             "": "/"
         },
-        ignoreURLParametersMatching: [/./],
         clientsClaim: true,
         skipWaiting: true,
-        navigateFallback: '/fallback',
+        ignoreURLParametersMatching: [/./],
         offlineGoogleAnalytics: true,
-        navigationPreload: true,
+        navigateFallback: '/offline',
         additionalManifestEntries: [
             {
-                "url": "/fallback/index.html",
+                "url": "/offline",
                 "revision": genRanHex()
             }
         ],
@@ -39,11 +38,11 @@ gulp.task("generate-service-worker", () => {
         runtimeCaching: [
             {
                 urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
-                handler: "NetworkOnly",
+                handler: 'StaleWhileRevalidate',
                 options: {
-                    cacheName: 'fallback',
+                    cacheName: 'core',
                     precacheFallback: {
-                        fallbackURL: '/fallback' // THIS IS THE KEY
+                        fallbackURL: '/offline'
                     },
                 },
             },
@@ -54,12 +53,6 @@ gulp.task("generate-service-worker", () => {
                     cacheName: "html",
                     expiration: {
                         maxAgeSeconds: 60 * 60 * 24 * 7,
-                    },
-                    backgroundSync: {
-                        name: 'my-queue-name',
-                        options: {
-                          maxRetentionTime: 60 * 60,
-                        },
                     },
                 },
             },
@@ -72,17 +65,11 @@ gulp.task("generate-service-worker", () => {
                         maxEntries: 1000,
                         maxAgeSeconds: 60 * 60 * 24 * 365,
                     },
-                    backgroundSync: {
-                        name: 'my-queue-name',
-                        options: {
-                          maxRetentionTime: 60 * 60,
-                        },
-                    },
                 },
             },
             {
                 urlPattern: /\.(?:mp3|wav|m4a)$/,
-                handler: "StaleWhileRevalidate",
+                handler: "CacheFirst",
                 options: {
                     cacheName: "audio",
                     expiration: {
@@ -93,7 +80,7 @@ gulp.task("generate-service-worker", () => {
             },
             {
                 urlPattern: /\.(?:m4v|mpg|avi)$/,
-                handler: "StaleWhileRevalidate",
+                handler: "CacheFirst",
                 options: {
                     cacheName: "videos",
                     expiration: {
