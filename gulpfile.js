@@ -2,7 +2,6 @@ const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const workbox = require("workbox-build");
-const precacheAndRoute = require('workbox-precaching');
 
 const genRanHex = (size = 24) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
 
