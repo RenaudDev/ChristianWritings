@@ -35,13 +35,15 @@ gulp.task("generate-service-worker", () => {
         ],
         maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
         runtimeCaching: [
-            urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
-            handler: 'NetworkOnly',
-            options: {
-              precacheFallback: {
-                // This URL needs to be included in your precache manifest.
-                fallbackURL: '/offline',
-              },
+            {
+                urlPattern: /^https:\/\/([\w+\.\-]+www\.christianwritings\.org)(|\/.*)$/,
+                handler: 'StaleWhileRevalidate',
+                options: {
+                    cacheName: 'core',
+                    precacheFallback: {
+                        fallbackURL: '/offline'
+                    },
+                },
             },
             {
                 urlPattern: /(?:\/)$/,
