@@ -9,7 +9,7 @@
 	  {{ with .Get "src" }}"name": "{{ . }}"{{ end }}
 	}
 	</script>
-<audio controls
+<audio controls crossorigin="anonymous"
 	class="audio_controls" preload="metadata"
 	{{ with .Get "title" }}data-info-title="{{ . }}"{{ end }}
 	data-info-artist="Librevox Recordings"
