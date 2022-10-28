@@ -1,3 +1,6 @@
+importScripts(
+  'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
+);
 import { registerRoute, Route } from 'workbox-routing';
 import { CacheFirst } from 'workbox-strategies';
 import { ExpirationPlugin } from 'workbox-expiration';
@@ -30,24 +33,3 @@ const scriptsRoute = new Route(({ request }) => {
 // Register routes
 registerRoute(imageRoute);
 registerRoute(scriptsRoute);
-
-// sw.js
-import { CacheableResponsePlugin } from 'workbox-cacheable-response';
-import { RangeRequestsPlugin } from 'workbox-range-requests';
-
-registerRoute(
-  ({request}) => {
-    const {destination} = request;
-
-    destination === 'audio'
-  },
-  new CacheFirst({
-    cacheName: 'audioCache',
-    plugins: [
-      new CacheableResponsePlugin({
-        statuses: [200]
-      }),
-      new RangeRequestsPlugin(),
-    ],
-  }),
-);
