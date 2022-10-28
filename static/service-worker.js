@@ -32,10 +32,8 @@ registerRoute(imageRoute);
 registerRoute(scriptsRoute);
 
 // sw.js
-import {registerRoute} from 'workbox-routing';
-import {CacheFirst} from 'workbox-strategies';
-import {CacheableResponsePlugin} from 'workbox-cacheable-response';
-import {RangeRequestsPlugin} from 'workbox-range-requests';
+import { CacheableResponsePlugin } from 'workbox-cacheable-response';
+import { RangeRequestsPlugin } from 'workbox-range-requests';
 
 registerRoute(
   ({request}) => {
