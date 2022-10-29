@@ -1,5 +1,5 @@
 module.exports = {
-	globDirectory: 'public',
+	globDirectory: '/public',
 	globPatterns: [
 		'**/*.{js,json,css,scss,webmanifest}'
 	],
