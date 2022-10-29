@@ -11,7 +11,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 
 // Fallback assets to cache
-const FALLBACK_HTML_URL = '/offline.html';
+const FALLBACK_HTML_URL = '/offline';
 const FALLBACK_IMAGE_URL = '/offline.png';
 const FALLBACK_STRATEGY = new CacheFirst();
 
