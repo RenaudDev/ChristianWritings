@@ -24,6 +24,17 @@ const urls = [
 
 warmStrategyCache({urls, strategy});
 
+registerRoute(
+    ({request}) => request.mode === 'navigate',
+    new CacheFirst({
+      cacheName: 'routes',
+      plugins: [
+        {handlerDidError: () => caches.match(OFFLINE_PAGE_URL)},
+        // Add any other plugins here.
+      ],
+    })
+  );
+
 precacheAndRoute(self.__WB_MANIFEST)
 
 
