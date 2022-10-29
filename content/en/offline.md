@@ -1,5 +1,5 @@
 ---
 title: Offline
-slug: offline.html
+slug: offline
 ---
 This page is offline

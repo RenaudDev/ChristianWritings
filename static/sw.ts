@@ -2,7 +2,6 @@ import {precacheAndRoute} from 'workbox-precaching';
 import { registerRoute, Route } from 'workbox-routing';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { CacheFirst } from 'workbox-strategies';
-import {offlineFallback} from 'workbox-recipes';
 
 declare const self: ServiceWorkerGlobalScope;
 const OFFLINE_PAGE_URL = '/offline'
@@ -73,5 +72,3 @@ const stylesScriptsExpirationPlugin = new ExpirationPlugin({
     CACHE_IMAGES_NAME, 
     imagesExpirationPlugin
   )
-
-  offlineFallback();
