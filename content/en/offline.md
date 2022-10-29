@@ -1,5 +1,7 @@
 ---
 title: Offline
-slug: offline
+slug: offline.html
+aliases: offline
+uglyURLs: true
 ---
 This page is offline
