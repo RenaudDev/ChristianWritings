@@ -1,8 +1,11 @@
 module.exports = {
 	globDirectory: 'public/',
 	globPatterns: [
-		'**/*.{js,css,scss,ico,manifest}'
+		'**/*.{js,css,scss}'
 	],
 	swDest: 'public/sw.js',
-	swSrc: 'static/sw.js'
+	swSrc: 'static/sw.js',
+	modifyURLPrefix: {
+		"": "/"
+	}
 };
