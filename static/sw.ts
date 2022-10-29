@@ -3,6 +3,13 @@ import {warmStrategyCache} from 'workbox-recipes';
 import {setDefaultHandler, setCatchHandler} from 'workbox-routing';
 import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
 
+declare const self: ServiceWorkerGlobalScope;
+
+
+
+precacheAndRoute(self.__WB_MANIFEST);
+
+
 // Fallback assets to cache
 const FALLBACK_HTML_URL = '/offline.html';
 const FALLBACK_IMAGE_URL = '/offline.png';
