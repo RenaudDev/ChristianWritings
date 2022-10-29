@@ -11,6 +11,7 @@ gulp.task("clean", function () {
 });
 gulp.task("pagefind", shell.task(["npx pagefind --source public"]));
 gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
+gulp.task("pagefind-serve", shell.task(["npx pagefind --source public --serve"]));
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
@@ -53,12 +54,6 @@ gulp.task("generate-service-worker", () => {
                     expiration: {
                         maxAgeSeconds: 60 * 60 * 24 * 7,
                     },
-                    backgroundSync: {
-                        name: 'my-queue-name',
-                        options: {
-                          maxRetentionTime: 60 * 60,
-                        },
-                    },
                 },
             },
             {
@@ -98,3 +93,4 @@ gulp.task("generate-service-worker", () => {
     });
 });
 gulp.task("build", gulp.series("clean", "hugo-build", "pagefind", "generate-service-worker"));
+gulp.task("serve", gulp.series("hugo-build", "pagefind-serve"));

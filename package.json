@@ -1,11 +1,19 @@
 {
+  "name": "ChristianWritings",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild --outfile=static/sw.js --bundle static/sw.ts && workbox injectManifest && hugo --minify",
+    "serve": "hugo --gc --minify"
+  },
   "devDependencies": {
-    "html-hint": "^0.2.4",
-    "pagefind": "^0.6.1",
+    "esbuild": "^0.15.12",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-shell": "^0.8.0",
-    "workbox-build": "^6.5.4",
+    "html-hint": "^0.2.4",
+    "pagefind": "^0.6.1",
+    "workbox-cli": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
     "workbox-sw": "^6.5.4"
   }
 }
