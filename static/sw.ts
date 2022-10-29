@@ -14,6 +14,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 const FALLBACK_HTML_URL = '/offline';
 const FALLBACK_IMAGE_URL = '/offline.png';
 const FALLBACK_STRATEGY = new CacheFirst();
+const CACHE = "pwabuilder-page";
 
 // Warm the runtime cache with a list of asset URLs
 warmStrategyCache({
@@ -43,3 +44,43 @@ setCatchHandler(async ({request}) => {
       return Response.error();
   }
 });
+
+
+self.addEventListener("message", (event) => {
+    if (event.data && event.data.type === "SKIP_WAITING") {
+      self.skipWaiting();
+    }
+  });
+  
+  self.addEventListener('install', async (event) => {
+    event.waitUntil(
+      caches.open(CACHE)
+        .then((cache) => cache.add(FALLBACK_HTML_URL))
+    );
+  });
+  
+  if (workbox.navigationPreload.isSupported()) {
+    workbox.navigationPreload.enable();
+  }
+  
+  self.addEventListener('fetch', (event) => {
+    if (event.request.mode === 'navigate') {
+      event.respondWith((async () => {
+        try {
+          const preloadResp = await event.preloadResponse;
+  
+          if (preloadResp) {
+            return preloadResp;
+          }
+  
+          const networkResp = await fetch(event.request);
+          return networkResp;
+        } catch (error) {
+  
+          const cache = await caches.open(CACHE);
+          const cachedResp = await cache.match(FALLBACK_HTML_URL);
+          return cachedResp;
+        }
+      })());
+    }
+  });
