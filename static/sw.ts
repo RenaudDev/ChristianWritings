@@ -1,6 +1,5 @@
 import {precacheAndRoute} from 'workbox-precaching';
-import {offlineFallback} from 'workbox-recipes';
-import {setDefaultHandler} from 'workbox-routing';
+import {warmStrategyCache} from 'workbox-recipes';
 import { registerRoute, Route } from 'workbox-routing';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { CacheFirst } from 'workbox-strategies';
@@ -16,8 +15,14 @@ const CACHE_STYLES_NAME = `${CACHE_PREFIX}-styles`
 const CACHE_DOCUMENTS_NAME = `${CACHE_PREFIX}-documents`
 const CACHE_FONTS_NAME = `${CACHE_PREFIX}-fonts`
 const CACHE_IMAGES_NAME = `${CACHE_PREFIX}-images`
-setDefaultHandler(new NetworkOnly());
-offlineFallback();
+
+// This can be any strategy, CacheFirst used as an example.
+const strategy = new CacheFirst();
+const urls = [
+  '/offline.html',
+];
+
+warmStrategyCache({urls, strategy});
 
 precacheAndRoute(self.__WB_MANIFEST)
 
