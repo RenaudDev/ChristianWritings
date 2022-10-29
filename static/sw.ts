@@ -19,7 +19,7 @@ const CACHE_IMAGES_NAME = `${CACHE_PREFIX}-images`
 // This can be any strategy, CacheFirst used as an example.
 const strategy = new CacheFirst();
 const urls = [
-  '/offline.html',
+  '/offline',
 ];
 
 warmStrategyCache({urls, strategy});
