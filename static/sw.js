@@ -1,18 +1,14 @@
-// This is the "Offline copy of pages" service worker
+import { imageCache } from 'workbox-recipes';
+import { googleFontsCache } from 'workbox-recipes';
+import { pageCache } from 'workbox-recipes';
+import { offlineFallback } from 'workbox-recipes';
+import { setDefaultHandler } from 'workbox-routing';
+import { NetworkOnly } from 'workbox-strategies';
 
-const CACHE = "pwabuilder-offline";
+setDefaultHandler(new NetworkOnly());
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+offlineFallback();
 
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
-  }
-});
-
-workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE
-  })
-);
+imageCache();
+googleFontsCache();
+pageCache();
