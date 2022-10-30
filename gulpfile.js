@@ -95,5 +95,5 @@ gulp.task("esbuild", shell.task(["esbuild --outfile=static/sw.js --bundle static
 gulp.task("inject", shell.task(["workbox injectManifest"]));
 
 
-gulp.task("build", gulp.series("hugo-build", "esbuild", "inject", "pagefind"));
+gulp.task("build", gulp.series("hugo-build", "esbuild", "pagefind"));
 gulp.task("serve", gulp.series("hugo-build", "pagefind-serve"));
