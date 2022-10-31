@@ -5,5 +5,12 @@
  <body>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    <script>
+      window.addEventListener('load', () => {
+          if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+      }
+      });
+</script>
  </body>
 </html>
