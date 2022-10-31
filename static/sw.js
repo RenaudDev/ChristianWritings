@@ -1631,5 +1631,5 @@ This is generally NOT safe. Learn more at https://bit.ly/wb-precache`;
   }
 
   // static/sw.ts
-  precacheAndRoute([{"revision":"042727ac3820c12e1e07cb952c5c675a","url":"/js/header.43f076d2b1513e0fb88be06dc47769799cdab8e5c2a8217c7cb4f354ffc8955dc040b92c72abfb33923660bb9d7dd4acf70e06e196922beb320b2eef321124e5.js"},{"revision":"9dd1a91e429d2a917c3a30f121fb5157","url":"/service-worker.js"},{"revision":"c58111e457bd97808389a875c9ee4eed","url":"/style.min.b69fe43ece9c1c4e7504d0633025581545d50d59c050364efc7e271428b998aac87c4b2fd449298cc7205f5b376c378cfa5f2f54a072706ac824edf786807e2f.css"},{"revision":"ded2da976ae5e23f9550db8964c1c709","url":"/sw.js"},{"revision":"c709aabfda754f0d201e18ece3e2e767","url":"/workbox-config.js"}]);
+  precacheAndRoute(self.__WB_MANIFEST);
 })();
