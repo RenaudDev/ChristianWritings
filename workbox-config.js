@@ -4,8 +4,5 @@ module.exports = {
 		'**/*.{js,css,scss}'
 	],
 	swDest: 'public/sw.js',
-	swSrc: 'static/sw.js',
-	modifyURLPrefix: {
-		"": "/"
-	}
+	swSrc: 'static/sw.js'
 };
