@@ -6,6 +6,8 @@
  <body>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    <p>Click the button below to try reloading.</p>
+    <button type="button">⤾ Reload</button>
     <script>
       // Manual reload feature.
       document.querySelector("button").addEventListener("click", () => {
