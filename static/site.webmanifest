@@ -4,7 +4,7 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "https://www.christianwritings.org/",
-  "description": "Read and Listen To The Early Church Fathers.",
+  "description": "Read and Listen To The Early Church Fathers",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
