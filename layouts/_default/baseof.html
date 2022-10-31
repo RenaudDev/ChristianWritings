@@ -23,6 +23,14 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
  </body>
+ <script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+    }
+    });
+</script>
+
 </html>
 {{ else }}
 
