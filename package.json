@@ -2,8 +2,8 @@
   "name": "ChristianWritings",
   "version": "1.0.0",
   "scripts": {
-    "build": "esbuild --outfile=static/sw.js --bundle static/sw.ts",
-    "serve": "hugo --gc --minify"
+    "build": "esbuild --outfile=static/sw.js --bundle static/sw.ts && workbox injectManifest",
+    "serve": "hugo --gc --minify | npx pagefind --source public --serve"
   },
   "devDependencies": {
     "esbuild": "^0.15.12",

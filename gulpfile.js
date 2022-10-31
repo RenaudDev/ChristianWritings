@@ -90,10 +90,10 @@ gulp.task("clean", function () {
 });
 gulp.task("pagefind", shell.task(["npx pagefind --source public"]));
 gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
-gulp.task("pagefind-serve", shell.task(["npx pagefind --source public --serve"]));
+gulp.task("pagefind-serve", shell.task(["npx pagefind --source public"]));
 gulp.task("esbuild", shell.task(["esbuild --outfile=static/sw.js --bundle static/sw.ts"]));
 gulp.task("inject", shell.task(["workbox injectManifest"]));
 
 
-gulp.task("build", gulp.series("hugo-build", "esbuild", "pagefind"));
+gulp.task("build", gulp.series("hugo-build", "esbuild", "injectManifest", "pagefind"));
 gulp.task("serve", gulp.series("hugo-build", "pagefind-serve"));
