@@ -6,4 +6,4 @@ type = "offline"
 offline = true
 +++
 
-You should try to find some internet connection to browse here.
+Click the button below to try reloading.

@@ -25,7 +25,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox
 const OFFLINE_VERSION = 1;
 const CACHE_NAME = "offline";
 // Customize this with a different URL if needed.
-const OFFLINE_URL = "offline";
+const OFFLINE_URL = "offline/";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
