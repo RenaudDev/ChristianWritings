@@ -2,10 +2,11 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
 
-const CACHE = "Offline";
+const CACHE = "Preload";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "offline/";
+const homePage = "/";
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -20,6 +21,13 @@ self.addEventListener('install', async (event) => {
   );
 });
 
+self.addEventListener('install', async (event) => {
+  event.waitUntil(
+    caches.open(CACHE)
+      .then((cache) => cache.add(homePage))
+  );
+});
+
 if (workbox.navigationPreload.isSupported()) {
   workbox.navigationPreload.enable();
 }
@@ -27,17 +35,24 @@ if (workbox.navigationPreload.isSupported()) {
 workbox.routing.registerRoute(
   /\.(?:css|js)$/,
   new workbox.strategies.StaleWhileRevalidate({
-    "cacheName": "assets",
+    "cacheName": "Assets",
   })
 );
+
 workbox.routing.registerRoute(
-  new RegExp('/*/'),
-  new workbox.strategies.CacheFirst({
-    "cacheName": "pages",
+  /^https:\/\/fonts\.gstatic\.com/,
+  new workbox.strategies.StaleWhileRevalidate({
+    "cacheName": "google-fonts-webfonts",
   })
 );
 
 self.addEventListener('fetch', (event) => {
+  workbox.routing.registerRoute(
+    /\.(?:html)$/,
+    new workbox.strategies.StaleWhileRevalidate({
+      "cacheName": "pages",
+    })
+  );
   if (event.request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
