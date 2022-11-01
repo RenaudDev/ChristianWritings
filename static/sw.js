@@ -21,13 +21,6 @@ self.addEventListener('install', async (event) => {
   );
 });
 
-self.addEventListener('install', async (event) => {
-  event.waitUntil(
-    caches.open(CACHE)
-      .then((cache) => cache.add(homePage))
-  );
-});
-
 if (workbox.navigationPreload.isSupported()) {
   workbox.navigationPreload.enable();
 }
