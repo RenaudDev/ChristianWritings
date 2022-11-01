@@ -1,11 +1,8 @@
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
-// This is the "Offline page" service worker
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-const CACHE = "pwabuilder-page";
+const CACHE = "Offline";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "offline/";
@@ -26,6 +23,19 @@ self.addEventListener('install', async (event) => {
 if (workbox.navigationPreload.isSupported()) {
   workbox.navigationPreload.enable();
 }
+
+workbox.routing.registerRoute(
+  /\.(?:css|js)$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    "cacheName": "assets",
+  })
+);
+workbox.routing.registerRoute(
+  new RegExp('/*/'),
+  new workbox.strategies.CacheFirst({
+    "cacheName": "pages",
+  })
+);
 
 self.addEventListener('fetch', (event) => {
   if (event.request.mode === 'navigate') {
