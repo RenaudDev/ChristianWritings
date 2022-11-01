@@ -1,9 +1,10 @@
 +++
 date = "2016-10-16T19:28:41+02:00"
 draft = false
-title = "Oops, you are offline."
+title = "You Are Offline"
 type = "offline"
 offline = true
 +++
+Press the button below to refresh this page.
 
-Click the button below to try reloading.
+{{< refresh >}}
