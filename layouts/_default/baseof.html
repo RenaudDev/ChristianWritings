@@ -15,22 +15,27 @@
 
 <!DOCTYPE html>
 {{ if .Params.Offline }}
-<html>
+<html lang='en'>
  <head>
   <title>{{ .Title }}</title>
+  <style>
+    main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+  </style>
  </head>
  <body>
+    <main>
+    {{- partial "offline.html" . -}}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    </main>
  </body>
- <script>
-    window.addEventListener('load', () => {
-        if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
-    }
-    });
-</script>
-
 </html>
 {{ else }}
 
