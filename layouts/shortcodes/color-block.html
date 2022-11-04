@@ -18,5 +18,5 @@
 {{ end }}
 
 <div class="color-block content-margin" style="background-color: {{ $bg_color }}; color: {{ $color }};" >
-    {{ .Inner | safeHTML }}
+    {{ .Inner | markdownify }}
 </div>

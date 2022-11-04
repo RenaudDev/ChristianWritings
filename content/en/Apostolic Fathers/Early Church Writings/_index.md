@@ -5,7 +5,7 @@ slug: early-church-writings
 tags:
 - Apostolic
 timeline: AD 35 - 108
-weight: 4
+weight: 5
 sitemap:
   priority: 0.8
 ---
