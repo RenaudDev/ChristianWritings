@@ -10,7 +10,9 @@ sitemap:
   priority: 0.8
 ---
 # St. Papias of Hierapolis
+
 {{< youtube IHXxyLzgqnE >}}
+
 *Saint Papias* was born around 60 AD, was the Bishop of Hierapolis, a close companion of [St. Polycarp](/apostolic-fathers/polycarp-of-smyrna/) and an [Apostolic Father]((/apostolic-fathers/).  He wrote a work in five books called "logion kyriakon exegesis", which was mostly a commentary on the sayings of Jesus Christ as recorded in the Gospels which is mostly lost apart from the few fragments that we have of it today. Part of the preface of this work was preserved by Eusebius, the early church historian:
 
 > I will not hesitate to add also for you to my interpretations what I formerly learned with care from the Presbyters and have carefully stored in memory, giving assurance of its truth. For I did not take pleasure as the many do in those who speak much, but in those who teach what is true, nor in those who relate foreign precepts, but in those who relate the precepts which were given by the Lord to the faith and came down from the Truth itself. And also if any follower of the Presbyters happened to come, I would inquire for the sayings of the Presbyters, what Andrew said, or what Peter said, or what Philip or what Thomas or James or what John or Matthew or any other of the Lord's disciples, and for the things which other of the Lord's disciples, and for the things which Aristion and the Presbyter John, the disciples of the Lord, were saying. For I considered that I should not get so much advantage from matter in books as from the voice which yet lives and remains.
