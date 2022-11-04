@@ -1,7 +1,7 @@
 ---
 title: "The Martyrdom Of St. Ignatius Of Antioch"
 author: Anonymous
-shortname: The Martyrdom Of St. Ignatius
+shortname: Martyrdom Of St. Ignatius
 slug: martyrdom
 layout: single
 weight: 8
