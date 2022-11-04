@@ -4,7 +4,7 @@ author: Anonymous
 shortname: The Martyrdom Of St. Ignatius
 slug: martyrdom
 layout: single
-weight: 2
+weight: 8
 sitemap:
   priority: 0.8
 ---
