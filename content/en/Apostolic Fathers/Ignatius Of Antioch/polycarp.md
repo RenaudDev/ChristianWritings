@@ -1,5 +1,6 @@
 ---
 title: "St. Ignatius Of Antioch: Epistle to Polycarp"
+description: Read the Epistle to Polycarp by St. Ignatius Of Antioch or listen to the audio recording here. Scriptural references included with the text.
 slug: polycarp
 shortname: Epistle to Polycarp
 author: St. Ignatius Of Antioch

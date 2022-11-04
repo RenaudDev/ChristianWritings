@@ -1,5 +1,6 @@
 ---
 title: "St. Polycarp of Smyrna: The Martyrdom of Polycarp"
+description: Read epic story of the Martyrdom of Polycarp or listen to the audio recording here. Scriptural references are included with the text.
 slug: Martyrdom
 author: St. Polycarp of Smyrna
 shortname: The Martyrdom of Polycarp

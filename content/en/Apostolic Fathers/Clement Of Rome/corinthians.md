@@ -1,5 +1,6 @@
 ---
 title: "St. Clement Of Rome: Letter to the Corinthians - 1 Clement"
+description: Read the educating Letter to the Corinthians (1 Clement) by St. Clement Of Rome or listen to the audio recording here. Scriptural references are included with the text.
 draft: false
 author: St. Clement Of Rome
 shortname: 1 Clement - Letter to the Corinthians

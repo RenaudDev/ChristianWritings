@@ -1,5 +1,6 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Philadelphians"
+description: Read the Epistle to the Philadelphians by St. Ignatius Of Antioch or listen to the audio version here. Scriptural references included with the text.
 slug: philadelphians
 shortname: Epistle to the Philadelphians
 author: St. Ignatius Of Antioch

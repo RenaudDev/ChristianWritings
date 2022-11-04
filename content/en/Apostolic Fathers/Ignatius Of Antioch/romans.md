@@ -1,5 +1,6 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Romans"
+description: Read the Epistle to the Romans by St. Ignatius Of Antioch or listen to the audio recording here. Scriptural references included with the text.
 slug: romans
 author: St. Ignatius Of Antioch
 shortname: Epistle to the Romans

@@ -2,6 +2,7 @@
 title: "The Martyrdom Of St. Ignatius Of Antioch"
 author: Anonymous
 shortname: Martyrdom Of St. Ignatius
+description: Read the Martyrdom Of St. Ignatius Of Antioch or listen to the audio version here. Scriptural references included.
 slug: martyrdom
 layout: single
 weight: 8

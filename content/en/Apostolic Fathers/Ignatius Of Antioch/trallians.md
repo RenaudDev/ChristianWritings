@@ -1,5 +1,6 @@
 ---
 title: "St. Ignatius Of Antioch: Epistle to the Trallians"
+description: Read the Epistle to the Trallians by St. Ignatius Of Antioch or listen to the audio recording here. Scriptural references included with the text.
 slug: trallians
 author: St. Ignatius Of Antioch
 shortname: Epistle to the Trallians

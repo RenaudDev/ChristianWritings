@@ -1,5 +1,6 @@
 ---
 title: "St. Polycarp of Smyrna: Epistle to the Philippians"
+description: Read inspiring Epistle to the Philippians by St. Polycarp of Smyrna or listen to the audio recording here. Scriptural references are included with the text.
 slug: philippians
 author: St. Polycarp of Smyrna
 shortname: Epistle to the Philippians

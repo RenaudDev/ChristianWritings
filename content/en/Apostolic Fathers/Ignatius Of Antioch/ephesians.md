@@ -1,5 +1,6 @@
 ---
 title: "St. Ignatius Of Antioch: The Epistle to the Ephesians"
+description: Read the Epistle to the Ephesians by St. Ignatius Of Antioch or listen to the audio version here. Scriptural references included with the text.
 author: St. Ignatius Of Antioch
 shortname: Epistle to the Ephesians
 enableToc: true
