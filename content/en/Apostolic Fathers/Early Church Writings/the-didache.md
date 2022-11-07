@@ -3,7 +3,6 @@ title: The Didache
 slug: the-didache
 description: Read,or listen via the audio version on the page, to the instructive early church writings called "The Didache" written by an anonymous author of the 1st Century AD.
 layout: single
-weight: 3
 sitemap:
   changefreq: weekly
   priority: 0.8
