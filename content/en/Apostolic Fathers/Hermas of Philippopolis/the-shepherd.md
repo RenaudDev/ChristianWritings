@@ -7,6 +7,10 @@ sitemap:
   changefreq: weekly
   priority: 0.8
 ---
+
+## Overview of The Shepherd Of Hermas
+{{< youtube ecp1WC-3BNo >}}
+
 ## The Visions Of The Shepherd Of Hermas (Book 1)
 
 ### Audio: Visions 1-2
