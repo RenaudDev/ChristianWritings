@@ -1,5 +1,5 @@
 ---
-title: Hermas of Philippopolis
+title: St. Hermas of Philippopolis
 description: Discover our collection of writings by Hermas of Philippopolis who is believed to be the writer of "The Shepherd of Hermas. Enjoy reading or listening to the audio recording here. Scriptural references are included with the text.
 slug: Hermas-of-philippopolis
 tags:
