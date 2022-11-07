@@ -4,7 +4,7 @@ description: Discover our collection of miscellaneous writings of the early Chur
 slug: early-church-writings
 tags:
 - Apostolic
-timeline: AD 35 - 108
+timeline: AD 90 - 150
 weight: 6
 sitemap:
   priority: 0.8

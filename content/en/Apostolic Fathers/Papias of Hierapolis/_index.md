@@ -5,7 +5,7 @@ slug: papias-of-hierapolis
 tags:
 - Apostolic
 timeline: AD 60 – c. 130
-weight: 4
+weight: 3
 sitemap:
   priority: 0.8
 ---

@@ -5,7 +5,7 @@ description: Polycarp AD 69 – 155 was a Christian bishop of Smyrna. According 
 timeline: AD 69 – 155
 tags:
 - Apostolic 
-weight: 3
+weight: 4
 sitemap:
   changefreq: weekly
   priority: 0.8

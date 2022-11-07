@@ -4,7 +4,7 @@ description: Discover our collection of writings by Hermas of Philippopolis who 
 slug: Hermas-of-philippopolis
 tags:
 - Apostolic
-timeline: AD 35 - 108
+timeline: AD 90 - 154
 weight: 5
 sitemap:
   priority: 0.8
