@@ -17,6 +17,12 @@
   weight = 3
 
 [[navbar]]
+  identifier = "Didache"
+  name = "The Didache"
+  url = "/apostolic-fathers/early-church-writings/the-didache/"
+  weight = 3
+
+[[navbar]]
   identifier = "Support Us"
   name = "Support Us"
   url = "https://www.buymeacoffee.com/christianwr/"
