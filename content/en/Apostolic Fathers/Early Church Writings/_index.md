@@ -5,7 +5,7 @@ slug: early-church-writings
 tags:
 - Apostolic
 timeline: AD 90 - 150
-weight: 6
+weight: 5
 sitemap:
   priority: 0.8
 ---

@@ -5,7 +5,7 @@ slug: melito-of-sardis
 tags:
 - Apostolic
 timeline: AD 100 – 180
-weight: 5
+weight: 7
 sitemap:
   priority: 0.8
 ---
