@@ -1,6 +1,6 @@
 ---
 title: "Platonism"
-description: Discover the essence of Platonismm. Understand key terms and concepts in Platonismphilosophy in a simple and concise way.
+description: Discover the essence of Platonism. Understand key terms and concepts in Platonist philosophy in a simple and concise way.
 author: Renaud Gagne
 shortname: Platonism
 enableToc: false

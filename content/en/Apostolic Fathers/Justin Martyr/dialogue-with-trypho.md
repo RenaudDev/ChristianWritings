@@ -42,13 +42,15 @@ Then he told me frankly both his name and his family.
 **Trypho**: (Smiling gently.) Tell us your opinion of these matters, and what idea you entertain respecting God, and what your philosophy is.
 
 ## 2. Justin describes his studies in philosophy
-**Justin**: I will tell you what seems to me; for philosophy is, in fact, the greatest possession, and most honourable before God, to whom it leads us and alone commends us; and these are truly holy men who have bestowed attention on philosophy. What philosophy is, however, and the reason why it has been sent down to men, have escaped the observation of most; for there would be neither [Platonists](/glossary/platonism/), nor [Stoics](/glossary/stoicism/), nor [Peripatetics]((/glossary/peripatetics/)), nor [Theoretics], nor [Pythagoreans], this knowledge being one. 
+**Justin**: I will tell you what seems to me; for philosophy is, in fact, the greatest possession, and most honourable before God, to whom it leads us and alone commends us; and these are truly holy men who have bestowed attention on philosophy. What philosophy is, however, and the reason why it has been sent down to men, have escaped the observation of most; for there would be neither [Platonists](/glossary/platonism/), nor [Stoics](/glossary/stoicism/), nor [Peripatetics](/glossary/peripatetics/), nor [Theoretics](/glossary/theoretics/), nor [Pythagoreans](/glossary/pythagorean/), this knowledge being one. 
 
 I wish to tell you why it has become many-headed. It has happened that those who first handled it [i.e., philosophy], and who were therefore esteemed illustrious men, were succeeded by those who made no investigations concerning truth, but only admired the perseverance and self-discipline of the former, as well as the novelty of the doctrines; and each thought that to be true which he learned from his teacher: then, moreover, those latter persons handed down to their successors such things, and others similar to them; and this system was called by the name of him who was styled the father of the doctrine. 
 
 Being at first desirous of personally conversing with one of these men, I surrendered myself to a certain Stoic; and having spent a considerable time with him, when I had not acquired any further knowledge of God (for he did not know himself, and said such instruction was unnecessary), I left him and betook myself to another, who was called a Peripatetic, and as he fancied, shrewd. And this man, after having entertained me for the first few days, requested me to settle the fee, in order that our intercourse might not be unprofitable. Him, too, for this reason I abandoned, believing him to be no philosopher at all. 
 
-But when my soul was eagerly desirous to hear the peculiar and choice philosophy, I came to a Pythagorean, very celebrated — a man who thought much of his own wisdom. And then, when I had an interview with him, willing to become his hearer and disciple, he said, 'What then? Are you acquainted with music, astronomy, and geometry? Do you expect to perceive any of those things which conduce to a happy life, if you have not been first informed on those points which wean the soul from sensible objects, and render it fitted for objects which appertain to the mind, so that it can contemplate that which is honourable in its essence and that which is good in its essence?' Having commended many of these branches of learning, and telling me that they were necessary, he dismissed me when I confessed to him my ignorance. Accordingly I took it rather impatiently, as was to be expected when I failed in my hope, the more so because I deemed the man had some knowledge; but reflecting again on the space of time during which I would have to linger over those branches of learning, I was not able to endure longer procrastination. In my helpless condition it occurred to me to have a meeting with the Platonists, for their fame was great. I thereupon spent as much of my time as possible with one who had lately settled in our city, — a sagacious man, holding a high position among the Platonists — and I progressed, and made the greatest improvements daily. And the perception of immaterial things quite overpowered me, and the contemplation of ideas furnished my mind with wings, so that in a little while I supposed that I had become wise; and such was my stupidity, I expected immediately to look upon God, for this is the end of Plato's philosophy.
+But when my soul was eagerly desirous to hear the peculiar and choice philosophy, I came to a Pythagorean, very celebrated — a man who thought much of his own wisdom. And then, when I had an interview with him, willing to become his hearer and disciple, he said, 'What then? Are you acquainted with music, astronomy, and geometry? Do you expect to perceive any of those things which conduce to a happy life, if you have not been first informed on those points which wean the soul from sensible objects, and render it fitted for objects which appertain to the mind, so that it can contemplate that which is honourable in its essence and that which is good in its essence?' 
+
+Having commended many of these branches of learning, and telling me that they were necessary, he dismissed me when I confessed to him my ignorance. Accordingly I took it rather impatiently, as was to be expected when I failed in my hope, the more so because I deemed the man had some knowledge; but reflecting again on the space of time during which I would have to linger over those branches of learning, I was not able to endure longer procrastination. In my helpless condition it occurred to me to have a meeting with the Platonists, for their fame was great. I thereupon spent as much of my time as possible with one who had lately settled in our city, — a sagacious man, holding a high position among the Platonists — and I progressed, and made the greatest improvements daily. And the perception of immaterial things quite overpowered me, and the contemplation of ideas furnished my mind with wings, so that in a little while I supposed that I had become wise; and such was my stupidity, I expected immediately to look upon God, for this is the end of Plato's philosophy.
 
 ## 3. Justin narrates the manner of his conversion
 **Justin**: And while I was thus disposed, when I wished at one period to be filled with great quietness, and to shun the path of men, I used to go into a certain field not far from the sea. And when I was near that spot one day, which having reached I purposed to be by myself, a certain old man, by no means contemptible in appearance, exhibiting meek and venerable manners, followed me at a little distance. And when I turned round to him, having halted, I fixed my eyes rather keenly on him.
@@ -63,9 +65,9 @@ But when my soul was eagerly desirous to hear the peculiar and choice philosophy
 
 **Old Man**: I am concerned about some of my household. These are gone away from me; and therefore have I come to make personal search for them, if, perhaps, they shall make their appearance somewhere. But why are you here?
 
-**Justin**: I delight in such walks, where my attention is not distracted, for converse with myself is uninterrupted; and such places are most fit for philology.
+**Justin**: I delight in such walks, where my attention is not distracted, for converse with myself is uninterrupted; and such places are most fit for [philology](/glossary/philology/).
 
-**Old Man**: Are you, then, a philologian, but no lover of deeds or of truth? And do you not aim at being a practical man so much as being a sophist?
+**Old Man**: Are you, then, a [philologian](/glossary/philology/), but no lover of deeds or of truth? And do you not aim at being a practical man so much as being a [sophist](/glossary/sophism/)?
 
 **Justin**: What greater work could one accomplish than this, to show the reason which governs all, and having laid hold of it, and being mounted upon it, to look down on the errors of others, and their pursuits? But without philosophy and right reason, prudence would not be present to any man. Wherefore it is necessary for every man to philosophize, and to esteem this the greatest and most honourable work; but other things only of second-rate or third-rate importance, though, indeed, if they be made to depend on philosophy, they are of moderate value, and worthy of acceptance; but deprived of it, and not accompanying it, they are vulgar and coarse to those who pursue them.
 
@@ -91,7 +93,7 @@ So I answered him; and he listened to me with pleasure, and continued to interro
 
 **Justin**: By no means.
 
-**Old Man**: You have not answered me correctly, then, for some branches of knowledge] come to us by learning, or by some employment, while of others we have knowledge by sight. Now, if one were to tell you that there exists in India an animal with a nature unlike all others, but of such and such a kind, multiform and various, you would not know it before you saw it; but neither would you be competent to give any account of it, unless you should hear from one who had seen it.
+**Old Man**: You have not answered me correctly, then, for some branches of knowledge come to us by learning, or by some employment, while of others we have knowledge by sight. Now, if one were to tell you that there exists in India an animal with a nature unlike all others, but of such and such a kind, multiform and various, you would not know it before you saw it; but neither would you be competent to give any account of it, unless you should hear from one who had seen it.
 
 **Justin**: Certainly not.
 
@@ -124,19 +126,19 @@ So I answered him; and he listened to me with pleasure, and continued to interro
 
 **Justin**: No one in any respect.
 
-**Old Man**: Therefore these animals will see God], according to your account.
+**Old Man**: Therefore these animals will see God, according to your account.
 
 **Justin**: No; for their body being of such a nature, is an obstacle to them.
 
-**Old Man**: If these animals could assume speech, be well assured that they would with greater reason ridicule our body; but let us now dismiss this subject, and let it be conceded to you as you say. Tell me, however, this: Does the soul see God] so long as it is in the body, or after it has been removed from it?
+**Old Man**: If these animals could assume speech, be well assured that they would with greater reason ridicule our body; but let us now dismiss this subject, and let it be conceded to you as you say. Tell me, however, this: Does the soul see God so long as it is in the body, or after it has been removed from it?
 
 **Justin**: So long as it is in the form of a man, it is possible for it to attain to this by means of the mind; but especially when it has been set free from the body, and being apart by itself, it gets possession of that which it was wont continually and wholly to love.
 
-**Old Man**: Does it remember this, then the sight of God], when it is again in the man?
+**Old Man**: Does it remember this, then the sight of God, when it is again in the man?
 
 **Justin**: It does not appear to me so.
 
-**Old Man**: What, then, is the advantage to those who have seen God]? Or what has he who has seen more than he who has not seen, unless he remember this fact, that he has seen?
+**Old Man**: What, then, is the advantage to those who have seen God? Or what has he who has seen more than he who has not seen, unless he remember this fact, that he has seen?
 
 **Justin**: I cannot tell.
 
