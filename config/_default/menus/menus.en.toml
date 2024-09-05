@@ -17,6 +17,12 @@
   weight = 3
 
 [[navbar]]
+  identifier = "Medieval Writings"
+  name = "Medieval Writings"
+  url = "/medieval-christian-writings/"
+  weight = 3
+
+[[navbar]]
   identifier = "Didache"
   name = "The Didache"
   url = "/apostolic-fathers/early-church-writings/the-didache/"
